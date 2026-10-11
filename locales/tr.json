@@ -1,0 +1,479 @@
+{
+  "about": {
+    "label": "HakkÄ±nda",
+    "code": "Kaynak kodu",
+    "donate": "BaÄŸÄ±ÅŸ yap",
+    "updates": "GÃ¼ncellemeler",
+    "hint": "SÃ¼rÃ¼m bilgisi, gÃ¼ncellemeler, kaynak kodu ve destek baÄŸlantÄ±larÄ±."
+  },
+  "changelog": {
+    "label": "DeÄŸiÅŸiklik GÃ¼nlÃ¼ÄŸÃ¼",
+    "hint": "GitHub'dan alÄ±nan son sÃ¼rÃ¼mler ve dÃ¼zeltmeler.",
+    "loading": "SÃ¼rÃ¼m notlarÄ± yÃ¼kleniyor...",
+    "error": "SÃ¼rÃ¼m notlarÄ± yÃ¼klenemedi.",
+    "retry": "Yeniden dene",
+    "empty": "SÃ¼rÃ¼m notu bulunamadÄ±.",
+    "current": "Mevcut",
+    "noNotes": "Bu sÃ¼rÃ¼m iÃ§in herhangi bir sÃ¼rÃ¼m notu saÄŸlanmadÄ±."
+  },
+  "buttons": {
+    "clear": "Temizle",
+    "clearAll": "TÃ¼mÃ¼nÃ¼ temizle",
+    "import": "Ä°Ã§e aktar",
+    "export": "DÄ±ÅŸa aktar",
+    "open": "AÃ§",
+    "cancel": "Ä°ptal",
+    "openUrl": "URL AÃ§",
+    "move": "TaÅŸÄ±",
+    "save": "Kaydet",
+    "remove": "KaldÄ±r",
+    "unsubscribe": "Abonelikten Ã§Ä±k",
+    "signOut": "Oturumu kapat",
+    "next": "Sonraki",
+    "show": "GÃ¶ster",
+    "download": "Ä°ndir",
+    "browse": "GÃ¶z at",
+    "updateYtDlp": "yt-dlp'yi gÃ¼ncelle",
+    "updating": "GÃ¼ncelleniyor...",
+    "ytDlpUpdated": "yt-dlp gÃ¼ncel",
+    "undo": "Geri al",
+    "retry": "Yeniden dene",
+    "confirm": "Onayla"
+  },
+  "library": {
+    "videos": "Videolar",
+    "channels": "Kanallar",
+    "playlists": "Oynatma listeleri",
+    "songs": "ÅžarkÄ±lar",
+    "artists": "SanatÃ§Ä±lar"
+  },
+  "menus": {
+    "openInNewTab": "Yeni sekmede aÃ§",
+    "edit": "DÃ¼zenle",
+    "remove": "KaldÄ±r",
+    "unsubscribe": "Abonelikten Ã§Ä±k",
+    "reload": "Yeniden yÃ¼kle",
+    "share": "PaylaÅŸ",
+    "pip": "Resim iÃ§inde Resim (PiP)",
+    "duplicateTab": "Sekmeyi Ã§oÄŸalt",
+    "close": "Kapat",
+    "tools": "AraÃ§lar",
+    "desktop": "MasaÃ¼stÃ¼ sitesi",
+    "on": "AÃ§Ä±k",
+    "off": "KapalÄ±",
+    "moveTo": "Åžuraya taÅŸÄ±â€¦",
+    "star": "YÄ±ldÄ±zla",
+    "unstar": "YÄ±ldÄ±zÄ± kaldÄ±r",
+    "download": "Ä°ndir"
+  },
+  "modals": {
+    "editBookmark": "Yer iÅŸaretini dÃ¼zenle",
+    "title": "BaÅŸlÄ±k",
+    "folder": "KlasÃ¶r",
+    "ungrouped": "GruplandÄ±rÄ±lmamÄ±ÅŸ",
+    "feeds": "AkÄ±ÅŸlar",
+    "history": "GeÃ§miÅŸ",
+    "queue": "Kuyruk",
+    "downloadVideo": "Videoyu indir",
+    "downloadsFolder": "Ä°ndirmeler klasÃ¶rÃ¼",
+    "activeDownloads": "Aktif Ä°ndirmeler",
+    "downloadHistory": "Ä°ndirme GeÃ§miÅŸi",
+    "starting": "BaÅŸlatÄ±lÄ±yor...",
+    "downloadComplete": "Ä°ndirme tamamlandÄ±",
+    "downloadFailed": "Ä°ndirme baÅŸarÄ±sÄ±z oldu",
+    "failedToLoadFormats": "Formatlar yÃ¼klenemedi",
+    "playbackSpeed": "Oynatma hÄ±zÄ±",
+    "playbackQuality": "Oynatma kalitesi",
+    "sharePageUrl": "Sayfa URL'si",
+    "shareVideoUrl": "Video URL'si",
+    "shareIncludePosition": "GeÃ§erli konumu dahil et",
+    "downloadUseCookies": "Ã‡erezlerimi kullan",
+    "downloadUseCookiesHint": "YaÅŸ sÄ±nÄ±rlamasÄ± olan, yalnÄ±zca Ã¼yelere aÃ§Ä±k veya Ã¶zel videolar iÃ§in gereklidir. Bu iÅŸlem YouTube oturumunuzu kapatabilir ve hesabÄ±nÄ±zÄ± bu ÅŸekilde kullanmak, hesabÄ±nÄ±zÄ±n iÅŸaretlenme riskini beraberinde getirir.",
+    "noFolder": "KlasÃ¶r yok",
+    "downloadErrorBlocked": "YouTube bu indirmeyi reddetti. Bu iÅŸlem, yt-dlp'nin henÃ¼z oluÅŸturamadÄ±ÄŸÄ± bir belirteÃ§ gerektiriyor; bu nedenle bu video ÅŸimdilik indirilemiyor â€” diÄŸer videolarÄ±n Ã§oÄŸu hala Ã§alÄ±ÅŸÄ±yor.",
+    "downloadErrorSignIn": "YouTube, bu video iÃ§in oturum aÃ§Ä±lmasÄ±nÄ± istiyor. \"Ã‡erezlerimi kullan\" seÃ§eneÄŸini etkinleÅŸtirin ve tekrar deneyin.",
+    "downloadErrorFormat": "Bu biÃ§im artÄ±k kullanÄ±labilir deÄŸil. BiÃ§imleri yeniden yÃ¼kleyin ve baÅŸka bir biÃ§im seÃ§in.",
+    "downloadErrorUnavailable": "Bu video kullanÄ±labilir deÄŸil.",
+    "downloadErrorNetwork": "YouTube'a baÄŸlanÄ±lamadÄ±. Ä°nternet baÄŸlantÄ±nÄ±zÄ± gÃ¶zden geÃ§irin ve tekrar deneyin.",
+    "showAllFormats": "TÃ¼m biÃ§imleri gÃ¶ster",
+    "showFewerFormats": "Daha az biÃ§im gÃ¶ster",
+    "pinnedFormat": "Sabitlendi",
+    "pinFormat": "VarsayÄ±lan biÃ§im olarak sabitle",
+    "unpinFormat": "VarsayÄ±lan biÃ§im sabitlemesini kaldÄ±r"
+  },
+  "update": {
+    "check": "GÃ¼ncellemeleri denetle",
+    "checkHint": "Daha yeni bir sÃ¼rÃ¼mÃ¼n olup olmadÄ±ÄŸÄ±nÄ± kontrol edin",
+    "upToDate": "En son sÃ¼rÃ¼mÃ¼ kullanÄ±yorsunuz",
+    "downloading": "v{{version}} gÃ¼ncellemesi indiriliyorâ€¦",
+    "error": "GÃ¼ncellemeler denetlenemedi",
+    "downloadedTitle": "GÃ¼ncelleme hazÄ±r",
+    "downloadedHint": "SÃ¼rÃ¼m {{version}} indirildi. YÃ¼klemek iÃ§in ÅŸimdi yeniden baÅŸlatÄ±lsÄ±n mÄ±?"
+  },
+  "sleepTimer": {
+    "label": "Uyku zamanlayÄ±cÄ±sÄ±",
+    "hint": "Belirli bir sÃ¼re sonra veya kendi girdiÄŸiniz dakika deÄŸerinin ardÄ±ndan oynatmayÄ± duraklatÄ±n.",
+    "activeHint": "Bu geri sayÄ±m bittiÄŸinde oynatma duraklatÄ±lacak.",
+    "off": "KapalÄ±",
+    "endsIn": "Kalan sÃ¼re: {{value}}",
+    "preset": "{{value}} dk",
+    "customPlaceholder": "Ã–zel dakika",
+    "set": "ZamanlayÄ±cÄ±yÄ± ayarla",
+    "cancel": "ZamanlayÄ±cÄ±yÄ± iptal et",
+    "replace": "DeÄŸiÅŸtir",
+    "validation": {
+      "minutes": "1 ile 1440 arasÄ±nda tam bir dakika deÄŸeri girin"
+    },
+    "setToast": "Uyku zamanlayÄ±cÄ±sÄ± {{value}} dakikaya ayarlandÄ±",
+    "cancelToast": "Uyku zamanlayÄ±cÄ±sÄ± iptal edildi",
+    "expiredToast": "Uyku zamanlayÄ±cÄ±sÄ±nÄ±n sÃ¼resi doldu"
+  },
+  "feeds": {
+    "updates": "GÃ¼ncellemeler",
+    "manage": "YÃ¶net",
+    "sortLastVideo": "Son video",
+    "sortFrequency": "SÄ±klÄ±k",
+    "lastVideoNewest": "Son video: Ã¶nce en yeni",
+    "lastVideoOldest": "Son video: Ã¶nce en eski",
+    "frequencyHighest": "SÄ±klÄ±k: Ã¶nce en yÃ¼ksek",
+    "frequencyLowest": "SÄ±klÄ±k: Ã¶nce en dÃ¼ÅŸÃ¼k",
+    "frequencyLabel": "SÄ±klÄ±k",
+    "lastVideoLabel": "Son video",
+    "videosPerDay": "{{value}} video/gÃ¼n",
+    "never": "HiÃ§bir zaman",
+    "allFolders": "TÃ¼mÃ¼",
+    "newFolder": "+ Yeni klasÃ¶r",
+    "editFeed": "AkÄ±ÅŸÄ± dÃ¼zenle",
+    "manageEmpty": "HenÃ¼z kaydedilmiÅŸ bir akÄ±ÅŸ yok.",
+    "manageNoResults": "Mevcut filtrelere uygun akÄ±ÅŸ bulunamadÄ±.",
+    "updatesEmpty": "Mevcut klasÃ¶r filtresiyle eÅŸleÅŸen akÄ±ÅŸ videosu yok.",
+    "filterDropdownPlaceholder": "KlasÃ¶rleri ve kanallarÄ± filtrele",
+    "filterDropdownEmpty": "EÅŸleÅŸen klasÃ¶r veya kanal bulunamadÄ±.",
+    "emptyTitleNoChannels": "YÄ±ldÄ±zlÄ± kanal yok",
+    "emptyBodyNoChannels": "YÄ±ldÄ±z eklediÄŸiniz YouTube kanallarÄ±ndan gelen gÃ¼ncellemeler burada gÃ¶rÃ¼necektir.",
+    "emptyTitleFolder": "{{folder}} klasÃ¶rÃ¼nde gÃ¼ncelleme yok",
+    "emptyTitleChannel": "{{channel}} kanalÄ±ndan gÃ¼ncelleme yok",
+    "emptyBodyFiltered": "Åžu anda burada yakÄ±n zamanda yÃ¼klenmiÅŸ video yok. Daha sonra tekrar kontrol edin veya 'TÃ¼mÃ¼' seÃ§eneÄŸine geÃ§iÅŸ yapÄ±n.",
+    "emptyActionFetchNow": "Åžimdi getir",
+    "fetchToastSuccess": "AkÄ±ÅŸ yenilendi",
+    "fetchToastRunning": "Yenileme iÅŸlemi zaten devam ediyor",
+    "fetchToastNotFound": "Bu kanal yenilenemedi. AkÄ±ÅŸ 404 hatasÄ± dÃ¶ndÃ¼rdÃ¼.",
+    "fetchToastError": "Bu kanal yenilenemedi",
+    "emptyActionAllFolders": "TÃ¼mÃ¼nÃ¼ gÃ¶ster",
+    "emptyTitleWaiting": "AkÄ±ÅŸ gÃ¼ncellemeleri bekleniyor",
+    "emptyBodyWaiting": "Kaydedilen kanallarÄ±nÄ±z hazÄ±r. UygulamayÄ± bir sÃ¼re aÃ§Ä±k tutun veya daha sonra tekrar aÃ§Ä±n; son yÃ¼klemeler burada gÃ¶rÃ¼necektir.",
+    "removeTitle": "{{title}} kaldÄ±rÄ±lsÄ±n mÄ±?",
+    "removeMessage": "Bu iÅŸlem kanalÄ± KitaplÄ±k'tan kaldÄ±rÄ±r ve akÄ±ÅŸ videolarÄ±nÄ± temizler."
+  },
+  "settings": {
+    "label": "Ayarlar",
+    "hubHint": "Oynatma, eÅŸzamanlama, iÃ§e aktarmalar ve web gÃ¶rÃ¼nÃ¼mÃ¼ (webview) araÃ§larÄ± tek bir yerde.",
+    "general": "Genel",
+    "generalHint": "VarsayÄ±lan oynatma ayarlarÄ±, gÃ¶rÃ¼nÃ¼m, araÃ§lar ve veri aktarÄ±mÄ±.",
+    "preferences": "Tercihler",
+    "preferencesHint": "Oynatma, akÄ±ÅŸ ve geÃ§miÅŸ davranÄ±ÅŸlarÄ±.",
+    "appearance": "GÃ¶rÃ¼nÃ¼m",
+    "appearanceHint": "AraÃ§ Ã§ubuÄŸu, dil ve tema.",
+    "tools": "AraÃ§lar",
+    "toolsHint": "Web gÃ¶rÃ¼nÃ¼mÃ¼ (webview) ortamÄ±nÄ± ve diÄŸer araÃ§larÄ± yÃ¶netin.",
+    "transfer": "Ä°Ã§e ve dÄ±ÅŸa aktar",
+    "transferHint": "Yer iÅŸaretlerini iÃ§eri aktarÄ±n veya yanÄ±nÄ±zda gÃ¶tÃ¼rÃ¼n.",
+    "syncHintShort": "Hesap, plan ve aygÄ±t eÅŸzamanlamasÄ±.",
+    "restoreOnStart": "BaÅŸlangÄ±Ã§ta son oturumu geri yÃ¼kle",
+    "autoHideHeader": "KaydÄ±rma yÃ¶nÃ¼ne gÃ¶re araÃ§ Ã§ubuÄŸunu gizle ve gÃ¶ster",
+    "autoHideSidebar": "Kenar Ã§ubuÄŸunu otomatik gizle ve Ã¼zerine gelindiÄŸinde gÃ¶ster",
+    "hideToolbarWhenScrolled": "Sayfa en Ã¼stte olmadÄ±ÄŸÄ±nda araÃ§ Ã§ubuÄŸunu gizle",
+    "headerPosition": {
+      "label": "AraÃ§ Ã§ubuÄŸu konumu",
+      "top": "Ãœst",
+      "bottom": "Alt"
+    },
+    "showHomeButtonInHeader": "AraÃ§ Ã§ubuÄŸunda Ana Sayfa butonunu gÃ¶ster",
+    "showBackButtonInHeader": "AraÃ§ Ã§ubuÄŸunda Geri butonunu gÃ¶ster",
+    "showForwardButtonInHeader": "AraÃ§ Ã§ubuÄŸunda Ä°leri butonunu gÃ¶ster",
+    "hideShorts": "Zaman tÃ¼nelinde Shorts videolarÄ±nÄ± gizle",
+    "hideShortsInNavbar": "Gezinti Ã§ubuÄŸunda Shorts'u gizle",
+    "hideMixPlaylist": "Karma (Mix) oynatma listelerini gizle",
+    "miniPlayer": "KÃ¼Ã§Ã¼k oynatÄ±cÄ±",
+    "preferH264": "H.264 tercih et (VP9/AV1'i engelle)",
+    "showDislikes": "BeÄŸenmeme sayÄ±larÄ±nÄ± gÃ¶ster",
+    "showOriginalVideoTitle": "Orijinal video baÅŸlÄ±ÄŸÄ±nÄ± gÃ¶ster",
+    "clickbaitThumbnail": {
+      "label": "TÄ±k tuzaÄŸÄ± (clickbait) kÃ¼Ã§Ã¼k resimlerini engelle",
+      "hint": "Ä°Ã§erik Ã¼retici kÃ¼Ã§Ã¼k resimlerini otomatik oluÅŸturulan video kareleriyle deÄŸiÅŸtirir",
+      "optionDefault": "VarsayÄ±lan",
+      "optionFrame": "Kare {{n}}"
+    },
+    "blocklist": {
+      "label": "Engelleme Listesi",
+      "hint": "YouTube videolarÄ±nÄ± kanala veya baÅŸlÄ±k anahtar kelimesine gÃ¶re gizleyin.",
+      "channels": "Kanallar",
+      "keywords": "Anahtar Kelimeler",
+      "channelPlaceholder": "Kanal adÄ±, kullanÄ±cÄ± adÄ± (handle) veya URL",
+      "keywordPlaceholder": "BaÅŸlÄ±k anahtar kelimesi",
+      "emptyChannels": "HenÃ¼z engellenen bir kanal yok.",
+      "emptyKeywords": "HenÃ¼z engellenen bir anahtar kelime yok.",
+      "add": "Ekle",
+      "channelsNote": "Kanallar ad, kullanÄ±cÄ± adÄ± veya kanal kimliÄŸine (ID) gÃ¶re tam olarak eÅŸleÅŸmelidir.",
+      "keywordsNote": "Anahtar kelimeler iÃ§erme durumuna gÃ¶re eÅŸleÅŸir (baÅŸlÄ±klarda alt dize aramasÄ± yapÄ±lÄ±r)."
+    },
+    "userStyles": {
+      "label": "KullanÄ±cÄ± Stilleri ve Betikleri",
+      "hint": "Kendi siteye Ã¶zgÃ¼ CSS ve kullanÄ±cÄ± betikleriniz.",
+      "builtin": {
+        "label": "YerleÅŸik stiller",
+        "hideShortsInNavbar": {
+          "label": "Gezinme Ã§ubuÄŸunda Shorts'u gizle"
+        },
+        "hideMixPlaylist": {
+          "label": "Karma oynatma listelerini gizle"
+        },
+        "hideCommunityPosts": {
+          "label": "Topluluk gÃ¶nderilerini gizle"
+        },
+        "hideAskButton": {
+          "label": "Gemini'ye Sor dÃ¼ÄŸmesini gizle"
+        },
+        "hideHomeFeed": {
+          "label": "Ana sayfa akÄ±ÅŸÄ±nÄ± gizle"
+        },
+        "hideRelatedVideos": {
+          "label": "Ä°lgili videolarÄ± gizle"
+        },
+        "hideEndScreens": {
+          "label": "KapanÄ±ÅŸ gÃ¶rÃ¼ntÃ¼lerini gizle"
+        }
+      },
+      "custom": {
+        "label": "Ã–zel stiller",
+        "empty": "HenÃ¼z Ã¶zel bir stil yok."
+      },
+      "add": "Stil ekle",
+      "addTitle": "KullanÄ±cÄ± stili ekle",
+      "editTitle": "KullanÄ±cÄ± stilini dÃ¼zenle",
+      "nameLabel": "Ä°sim",
+      "namePlaceholder": "Stilim",
+      "validation": {
+        "css": "CSS alanÄ± boÅŸ bÄ±rakÄ±lamÄ±r"
+      },
+      "deleteConfirm": "Bu Ã¶zel stil kaldÄ±rÄ±lsÄ±n mÄ±?",
+      "copyCss": "CSS'i kopyala",
+      "cssCopied": "CSS kopyalandÄ±",
+      "copyFailed": "CSS kopyalanamadÄ±",
+      "importFailed": "CSS iÃ§e aktarÄ±lamadÄ±",
+      "scripts": {
+        "label": "Ã–zel betikler (scripts)",
+        "empty": "HenÃ¼z Ã¶zel bir betik yok.",
+        "add": "Betik ekle",
+        "addTitle": "KullanÄ±cÄ± betiÄŸi ekle",
+        "editTitle": "KullanÄ±cÄ± betiÄŸini dÃ¼zenle",
+        "namePlaceholder": "BetiÄŸim",
+        "run": "Ã‡alÄ±ÅŸtÄ±r",
+        "runComplete": "Betik Ã§alÄ±ÅŸtÄ±rÄ±ldÄ±",
+        "runFailed": "Betik baÅŸarÄ±sÄ±z oldu",
+        "import": "Ä°Ã§e aktar",
+        "importFailed": "Betik iÃ§e aktarÄ±lamadÄ±",
+        "pinToHeader": "AraÃ§ Ã§ubuÄŸuna sabitle",
+        "pinToHeaderHint": "Bu betiÄŸi araÃ§ Ã§ubuÄŸunda bir eylem olarak gÃ¶ster.",
+        "pinnedToHeader": "AraÃ§ Ã§ubuÄŸuna sabitlendi",
+        "deleteConfirm": "Bu Ã¶zel betik kaldÄ±rÄ±lsÄ±n mÄ±?",
+        "noActiveTab": "Aktif web gÃ¶rÃ¼nÃ¼mÃ¼ (webview) yok",
+        "validation": {
+          "js": "JavaScript alanÄ± boÅŸ bÄ±rakÄ±lamaz"
+        },
+        "runAtStart": "Belge baÅŸlangÄ±cÄ±nda Ã§alÄ±ÅŸtÄ±r",
+        "runAtStartHint": "DOMContentLoaded sonrasÄ±nda deÄŸil, DOM oluÅŸturulmadan Ã¶nce Ã§alÄ±ÅŸtÄ±r.",
+        "runAtStartDesktopHint": "HenÃ¼z masaÃ¼stÃ¼nde kullanÄ±labilir deÄŸil; betikler DOM hazÄ±r olduÄŸunda Ã§alÄ±ÅŸtÄ±rÄ±lÄ±r.",
+        "runAtStartBadge": "Belge baÅŸlangÄ±cÄ±nda Ã§alÄ±ÅŸÄ±r"
+      },
+      "builtinScripts": {
+        "label": "YerleÅŸik betikler",
+        "fixEncodedAuthorNames": {
+          "label": "Yazar adlarÄ±ndaki Ã¶zel karakterleri dÃ¼zelt"
+        }
+      }
+    },
+    "channelsFeed": "Kanallar akÄ±ÅŸÄ±",
+    "watchHistory": "Ä°zleme geÃ§miÅŸi",
+    "theme": {
+      "label": "Tema",
+      "system": "Sistem",
+      "dark": "KaranlÄ±k",
+      "light": "AydÄ±nlÄ±k",
+      "hint": "Bu, uygulama ve YouTube iÃ§in geÃ§erlidir. DeÄŸiÅŸiklik web gÃ¶rÃ¼nÃ¼mÃ¼nde gÃ¶rÃ¼nmÃ¼yorsa, uygulamayÄ± elle yeniden baÅŸlatÄ±n."
+    },
+    "language": {
+      "label": "Dil",
+      "system": "Sistem",
+      "hint": "Bir dil seÃ§in veya sistem dilini takip edin."
+    },
+    "login": {
+      "label": "Web gÃ¶rÃ¼nÃ¼mÃ¼nden giriÅŸ yapamadÄ±ysanÄ±z bunu deneyin",
+      "button": "YouTube GiriÅŸi Yap"
+    },
+    "openUrlLabel": "Desteklenen URL'yi doÄŸrudan aÃ§",
+    "webview": {
+      "clearLabel": "Web gÃ¶rÃ¼nÃ¼mÃ¼ verilerini temizle"
+    },
+    "userAgent": {
+      "title": "Ã–zel kullanÄ±cÄ± aracÄ±sÄ± (user agent)",
+      "default": "VarsayÄ±lan kullanÄ±cÄ± aracÄ±sÄ±"
+    },
+    "importList": "BaÄŸlantÄ± listesini iÃ§e aktar",
+    "importTakeout": "YouTube Takeout'tan iÃ§e aktar",
+    "exportLabel": "Yer iÅŸaretlerini CSV dosyasÄ±na aktar",
+    "injectCookie": "Web gÃ¶rÃ¼nÃ¼mÃ¼nden giriÅŸ yapÄ±lamadÄ±ysa Ã§erez (cookie) enjekte edin",
+    "injectCookieTitle": "Web gÃ¶rÃ¼nÃ¼mÃ¼ne kimlik doÄŸrulama Ã§erezi enjekte edin",
+    "injectCookieHint": "PC tarayÄ±cÄ±nÄ±zdan 'Cookie' Ã¼stbilgi (header) deÄŸerini kopyalayÄ±n. E-posta/ÅŸifre ile giriÅŸ yapamadÄ±ÄŸÄ±nÄ±z durumlar iÃ§in bu alternatif bir Ã§Ã¶zÃ¼mdÃ¼r.",
+    "preferencesContent": "iÃ§erik",
+    "preferencesPlayback": "Oynatma ve gÃ¶rÃ¼ntÃ¼leme",
+    "preferencesGeneral": "Genel",
+    "pullToRefresh": "Yenilemek iÃ§in aÅŸaÄŸÄ± kaydÄ±rÄ±n",
+    "showReloadButtonInHeader": "AraÃ§ Ã§ubuÄŸunda Yeniden YÃ¼kle dÃ¼ÄŸmesini gÃ¶ster",
+    "zoom": {
+      "label": "Metin yakÄ±nlaÅŸtÄ±rma",
+      "defaultLabel": "Metin yakÄ±nlaÅŸtÄ±rma",
+      "defaultHint": "YouTube web sayfalarÄ±ndaki metin boyutunu ayarlama."
+    },
+    "proxy": {
+      "label": "Vekil sunucu",
+      "enabled": "Vekil sunucuyu etkinleÅŸtir",
+      "type": "Vekil sunucu tÃ¼rÃ¼",
+      "host": "Vekil sunucu ana bilgisayarÄ±",
+      "port": "Vekil sunucu baÄŸlantÄ± noktasÄ±",
+      "hostPlaceholder": "Vekil sunucu adresi (Ã–rneÄŸin: 127.0.0.1 veya proxy.example.com)",
+      "portPlaceholder": "Ã–rneÄŸin: 1080"
+    },
+    "toolbar": "AraÃ§ Ã§ubuÄŸu",
+    "toolbarButtons": "AraÃ§ Ã§ubuÄŸu dÃ¼ÄŸmeleri",
+    "showHistoryButtonInHeader": "AraÃ§ Ã§ubuÄŸunda GeÃ§miÅŸ dÃ¼ÄŸmesini gÃ¶ster",
+    "doubleTapToToggleHeader": "AraÃ§ Ã§ubuÄŸunu gizlemek veya gÃ¶stermek iÃ§in sayfaya iki kez dokun",
+    "translation": {
+      "enable": "YorumlarÄ± Ã§evir",
+      "hint": "AygÄ±tÄ±nÄ±zda yorumlarÄ± Ã§evirmek iÃ§in yorumlarÄ±n Ã¼zerinde bir Ã‡evir dÃ¼ÄŸmesi gÃ¶ster.",
+      "targetLanguage": "Åžuna Ã§evir",
+      "appLanguage": "Uygulama",
+      "systemLanguage": "Sistem",
+      "notSelected": "Dil seÃ§in",
+      "chooseLanguage": "Ã–nce bir Ã§eviri dili seÃ§in",
+      "loading": "Ã‡evriliyorâ€¦",
+      "copy": "Ã‡eviriyi kopyala",
+      "copySource": "KaynaÄŸÄ± kopyala",
+      "pin": "Ã‡eviriyi sabitle",
+      "unpin": "Ã‡evirinin sabitlemesini kaldÄ±r",
+      "failed": "Bu metin Ã§evrilemedi",
+      "unsupported": "Bu diller bu aygÄ±tta kullanÄ±labilir deÄŸil"
+    },
+    "replaceWatchNavigation": "Geri dÃ¼ÄŸmesi izlenen videolarÄ± atlar",
+    "importSettings": "AyarlarÄ± iÃ§e aktar",
+    "importSettingsDescription": "MusicTube ayar dosyasÄ±ndan ayarlarÄ± geri yÃ¼kle",
+    "importSettingsConfirm": "Bu, geÃ§erli ayarlarÄ±nÄ±zÄ±, engelleme listenizi, kullanÄ±cÄ± biÃ§imlerinizi ve Ã¶zel betiklerinizi deÄŸiÅŸtirir. Devam etmek istiyor musunuz?",
+    "importSettingsWithScriptsConfirm": "Bu dosya, YouTube iÃ§inde kod Ã§alÄ±ÅŸtÄ±rabilen {{count}} adet etkinleÅŸtirilen Ã¶zel betik iÃ§erir. YalnÄ±zca dosyaya gÃ¼veniyorsanÄ±z devam edin. GeÃ§erli ayarlarÄ±nÄ±z, engelleme listeniz, kullanÄ±cÄ± biÃ§imleriniz ve Ã¶zel betikleriniz deÄŸiÅŸtirilecektir.",
+    "importSettingsDone": "Ä°Ã§e aktarÄ±ldÄ±: {{sections}}",
+    "exportSettings": "AyarlarÄ± dÄ±ÅŸa aktar",
+    "exportSettingsDescription": "AyarlarÄ±, engelleme listesini, kullanÄ±cÄ± biÃ§imlerini ve Ã¶zel betikleri JSON dosyasÄ± olarak kaydet",
+    "preferencesDistractionFree": "Dikkat daÄŸÄ±tmayan",
+    "groupYouTube": "YouTube",
+    "groupMusicTube": "MusicTube",
+    "preferencesComments": "Yorumlar",
+    "sidebar": "Kenar Ã§ubuÄŸu",
+    "preferencesYouTubeHint": "YouTube tercihleri",
+    "preferencesMusicTubeHint": "MusicTube tercihleri",
+    "systemCaptionStyle": {
+      "label": "Sistem alt yazÄ± biÃ§imini kullan",
+      "hint": "Androidi alt yazÄ± rengini, arka planÄ±nÄ± ve metin boyutunu YouTube alt yazÄ±larÄ±nda kullanÄ±r.",
+      "openSystemSettings": "Sistem alt yazÄ± ayarlarÄ±"
+    },
+    "showSleepTimerButtonInHeader": "AraÃ§ Ã§ubuÄŸunda uyku zamanlayÄ±cÄ± dÃ¼ÄŸmesini gÃ¶ster",
+    "showLibraryButtonInHeader": "AraÃ§ Ã§ubuÄŸunda kÃ¼tÃ¼phane dÃ¼ÄŸmesini gÃ¶ster",
+    "showStarButtonInHeader": "AraÃ§ Ã§ubuÄŸunda yÄ±ldÄ±z dÃ¼ÄŸmesini gÃ¶ster",
+    "mediaNotificationButtons": "Medya bildirim dÃ¼ÄŸmeleri",
+    "showMediaNotificationPrevButton": "Ã–nceki dÃ¼ÄŸmesini gÃ¶ster",
+    "showMediaNotificationNextButton": "Sonraki dÃ¼ÄŸmesini gÃ¶ster",
+    "showMediaNotificationRewindButton": "Geri sar dÃ¼ÄŸmesini gÃ¶ster",
+    "showMediaNotificationForwardButton": "Ä°leri dÃ¼ÄŸmesini gÃ¶ster",
+    "showMediaNotificationSpeedButton": "Oynatma hÄ±zÄ± dÃ¼ÄŸmesini gÃ¶ster",
+    "showMediaNotificationCloseButton": "Kapat dÃ¼ÄŸmesini gÃ¶ster",
+    "mediaNotificationButtonsHint": "Android, oynat dÃ¼ÄŸmesinin yanÄ±na bu dÃ¼ÄŸmelerden en fazla dÃ¶rdÃ¼nÃ¼, burada belirtilen sÄ±rayla gÃ¶rÃ¼ntÃ¼ler. {{selected}} tane seÃ§tiniz.",
+    "miniPlayerHint": "Videodan ayrÄ±ldÄ±ÄŸÄ±nÄ±zda, sayfanÄ±n bir kÃ¶ÅŸesinde oynatÄ±lmaya devam eder.",
+    "pictureInPicture": "Resim iÃ§inde resim",
+    "pictureInPictureHint": "Uygulamadan Ã§Ä±ktÄ±ÄŸÄ±nÄ±zda video yÃ¼zen bir pencerede oynatÄ±lmaya devam eder.",
+    "blockAds": {
+      "label": "ReklamlarÄ± engelle",
+      "hint": "YouTube reklamlarÄ±nÄ±n gÃ¶sterilmesini saÄŸlamak ve iÃ§erik oluÅŸturucularÄ± desteklemek iÃ§in bu Ã¶zelliÄŸi kapatÄ±n."
+    },
+    "dynamicColor": {
+      "label": "DeÄŸiÅŸken renk",
+      "hint": "Sistem renk paletini kullan."
+    }
+  },
+  "native": {
+    "format_bestQuality": "En iyi kalite",
+    "format_bestQualityDesc": "{{height}}p Ã§Ã¶zÃ¼nÃ¼rlÃ¼ÄŸe kadar video + ses",
+    "format_1080pDesc": "1080p video + ses",
+    "format_720pDesc": "720p video + ses",
+    "format_audioOnly": "Sadece ses",
+    "format_audio": "Ses ({{ext}})",
+    "format_audioStreamDesc": "En iyi ses akÄ±ÅŸÄ±",
+    "format_audioMp3Desc": "MP3 formatÄ±na dÃ¶nÃ¼ÅŸtÃ¼rÃ¼lmÃ¼ÅŸ en iyi ses",
+    "download_complete": "Ä°ndirme tamamlandÄ±",
+    "download_failed": "Ä°ndirme baÅŸarÄ±sÄ±z oldu"
+  },
+  "sync": {
+    "label": "EÅŸzamanla",
+    "hint": "Premium kullanÄ±cÄ± olarak yer iÅŸaretlerinizi telefonlarÄ±nÄ±z ve bilgisayarlarÄ±nÄ±z arasÄ±nda eÅŸzamanlayÄ±n.",
+    "currentPlan": "Mevcut plan",
+    "managePlan": "PlanÄ± yÃ¶net",
+    "freePlan": "Ãœcretsiz",
+    "deleteAccount": "HesabÄ± sil",
+    "buy": "App Store ile abone ol",
+    "restore": "SatÄ±n alÄ±mlarÄ± geri yÃ¼kle",
+    "manageIos": "App Store iÃ§inde yÃ¶net",
+    "purchaseTitle": "AboneliÄŸi baÄŸla",
+    "purchaseConfirm": "Bu abonelik {{email}} adresine baÄŸlanacak ve bu MusicTube hesabÄ±na giriÅŸ yaptÄ±ÄŸÄ±nÄ±z her yerde eÅŸzamanlamayÄ± etkinleÅŸtirecektir.",
+    "priceLoading": "App Store fiyatÄ± yÃ¼kleniyor...",
+    "purchasePending": "SatÄ±n alma iÅŸlemi onay bekliyor. OnaylandÄ±ÄŸÄ±nda eÅŸzamanlama kilidi aÃ§Ä±lÄ±r.",
+    "productUnavailable": "App Store Ã¼rÃ¼nÃ¼ henÃ¼z kullanÄ±labilir deÄŸil.",
+    "noPurchaseToRestore": "Geri yÃ¼klenecek MusicTube Sync satÄ±n alÄ±mÄ± bulunamadÄ±.",
+    "activeViaIos": "App Store ile etkinleÅŸtir",
+    "signOutSwitch": "Oturumu kapat ve hesap deÄŸiÅŸtir",
+    "expiresAt": "Yenilenir veya sÃ¼resi dolar: {{value}}",
+    "legalNotice": "Abonelikler, iptal edilmedikÃ§e otomatik olarak yenilenir. Abone olarak, KullanÄ±m KoÅŸullarÄ±nÄ± (EULA) ve Gizlilik Ä°lkelerini kabul etmiÅŸ olursunuz.",
+    "termsOfUse": "KullanÄ±m KoÅŸullarÄ± (EULA)",
+    "privacyPolicy": "Gizlilik Ä°lkeleri"
+  },
+  "bookmarks": {
+    "removed": "Yer imi kaldÄ±rÄ±ldÄ±",
+    "moved": "{{folder}} klasÃ¶rÃ¼ne taÅŸÄ±ndÄ±",
+    "movedToRoot": "KlasÃ¶rden taÅŸÄ±ndÄ±"
+  },
+  "folders": {
+    "removed": "{{name}} klasÃ¶rÃ¼ kaldÄ±rÄ±ldÄ±"
+  },
+  "pageLoadError": {
+    "title": "Bu sayfa yÃ¼klenemiyor",
+    "description": "BaÄŸlantÄ±nÄ±zÄ± gÃ¶zden geÃ§irin, ardÄ±ndan tekrar deneyin."
+  },
+  "extension": {
+    "openOptions": "Engelleme listesi ve kullanÄ±cÄ± biÃ§imleri",
+    "reloadTabs": "YouTube sekmelerini yeniden yÃ¼kle",
+    "applyHint": "BazÄ± seÃ§enekler ancak sayfa yeniden yÃ¼klendiÄŸinde geÃ§erli olur.",
+    "userScriptsUnavailable": "KullanÄ±cÄ± betikleri, tarayÄ±cÄ±nÄ±n kullanÄ±cÄ± betikleri iznine ihtiyaÃ§ duyar. Chrome'da, uzantÄ± ayrÄ±ntÄ±larÄ± sayfasÄ±nÄ± aÃ§Ä±n ve kullanÄ±cÄ± betiklerine izin verin.",
+    "feeds": "AkÄ±ÅŸlar",
+    "library": "KÃ¼tÃ¼phane",
+    "signIn": "Oturum aÃ§",
+    "signedOut": "Oturum aÃ§Ä±lmadÄ±",
+    "syncNow": "Åžimdi eÅŸzamanla",
+    "refreshFeeds": "AkÄ±ÅŸlarÄ± yenile",
+    "manageFeeds": "AkÄ±ÅŸlarÄ± yÃ¶net",
+    "account": "Hesap ve eÅŸzamanlama",
+    "more": "Daha fazla",
+    "openExpanded": "Yeni sekmede aÃ§",
+    "openYouTube": "YouTube'u aÃ§",
+    "openYouTubeMusic": "YouTube MÃ¼zik'i aÃ§",
+    "saveCurrentPage": "GeÃ§erli sayfayÄ± kaydet"
+  },
+  "history": {
+    "cleared": "GeÃ§miÅŸ temizlendi"
+  }
+}

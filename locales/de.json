@@ -1,0 +1,288 @@
+{
+  "about": {
+    "label": "Ãœber",
+    "code": "Quellcode",
+    "donate": "Spenden",
+    "updates": "Aktualisierungen"
+  },
+  "buttons": {
+    "clear": "LÃ¶schen",
+    "import": "Importieren",
+    "export": "Exportieren",
+    "open": "Ã–ffnen",
+    "cancel": "Abbrechen",
+    "openUrl": "URL Ã¶ffnen",
+    "move": "Verschieben",
+    "save": "Speichern",
+    "signOut": "Abmelden",
+    "remove": "Entfernen",
+    "next": "Weiter",
+    "show": "Anzeigen",
+    "download": "Herunterladen",
+    "browse": "Durchsuchen",
+    "updating": "Wird aktualisiert ...",
+    "unsubscribe": "Deabonnieren",
+    "updateYtDlp": "yt-dlp aktualisieren",
+    "ytDlpUpdated": "yt-dlp ist auf dem neuesten Stand",
+    "clearAll": "Alles leeren",
+    "undo": "RÃ¼ckgÃ¤ngig",
+    "retry": "Erneut versuchen"
+  },
+  "library": {
+    "videos": "Videos",
+    "channels": "KanÃ¤le",
+    "playlists": "Wiedergabelisten",
+    "songs": "Lieder",
+    "artists": "KÃ¼nstler"
+  },
+  "menus": {
+    "edit": "Bearbeiten",
+    "remove": "Entfernen",
+    "reload": "Neu laden",
+    "share": "Teilen",
+    "pip": "Bild-in-Bild",
+    "duplicateTab": "Tab duplizieren",
+    "close": "SchlieÃŸen",
+    "tools": "Werkzeuge",
+    "on": "Ein",
+    "off": "Aus",
+    "openInNewTab": "In neuem Tab Ã¶ffnen",
+    "unsubscribe": "Deabonnieren",
+    "moveTo": "Verschieben nach â€¦"
+  },
+  "modals": {
+    "editBookmark": "Lesezeichen bearbeiten",
+    "title": "Titel",
+    "folder": "Ordner",
+    "ungrouped": "Nicht gruppiert",
+    "history": "Verlauf",
+    "queue": "Warteschlange",
+    "feeds": "Feeds",
+    "playbackQuality": "WiedergabequalitÃ¤t",
+    "playbackSpeed": "Wiedergabegeschwindigkeit",
+    "downloadFailed": "Herunterladen fehlgeschlagen",
+    "starting": "Wird gestartet ...",
+    "downloadComplete": "Herunterladen abgeschlossen",
+    "downloadVideo": "Video herunterladen",
+    "noFolder": "Kein Ordner",
+    "downloadErrorUnavailable": "Dieses Video ist nicht verfÃ¼gbar.",
+    "showAllFormats": "Alle Formate anzeigen",
+    "showFewerFormats": "Weniger Formate anzeigen",
+    "pinnedFormat": "Angeheftet",
+    "sharePageUrl": "Seiten-URL",
+    "shareVideoUrl": "Video-URL",
+    "shareIncludePosition": "Aktuelle Position miteinbeziehen",
+    "downloadUseCookies": "Meine Cookies verwenden",
+    "downloadUseCookiesHint": "Erforderlich fÃ¼r altersbeschrÃ¤nkte, nur fÃ¼r Mitglieder zugÃ¤ngliche oder private Videos. MÃ¶glicherweise wirst du dadurch bei YouTube abgemeldet, und die Nutzung eines Kontos auf diese Weise birgt das Risiko, dass es als verdÃ¤chtig markiert wird.",
+    "downloadErrorBlocked": "YouTube hat diesen Download abgelehnt. Es wird ein Token benÃ¶tigt, das yt-dlp derzeit noch nicht generieren kann, daher kann dieses Video vorerst nicht heruntergeladen werden â€“ die meisten anderen Videos funktionieren weiterhin.",
+    "downloadErrorSignIn": "YouTube verlangt fÃ¼r dieses Video, dass du angemeldet bist. Aktiviere die Option â€žMeine Cookies verwendenâ€œ und versuche es erneut.",
+    "downloadErrorFormat": "Dieses Format ist nicht mehr verfÃ¼gbar. Lade die Formate erneut und wÃ¤hle ein anderes aus.",
+    "downloadErrorNetwork": "YouTube konnte nicht erreicht werden. ÃœberprÃ¼fe deine Verbindung und versuche es erneut.",
+    "failedToLoadFormats": "Das Laden der Formate ist fehlgeschlagen"
+  },
+  "settings": {
+    "label": "Einstellungen",
+    "general": "Allgemein",
+    "restoreOnStart": "Letzte Sitzung beim Start wiederherstellen",
+    "watchHistory": "Verlauf ansehen",
+    "theme": {
+      "label": "Thema",
+      "system": "System",
+      "dark": "Dunkel",
+      "light": "Hell",
+      "hint": "Starte manuell neu, wenn die Ã„nderung nicht in der Webansicht angezeigt wird."
+    },
+    "login": {
+      "label": "Versuche dies, wenn du dich nicht Ã¼ber die Webansicht anmelden konntest",
+      "button": "Bei YouTube anmelden"
+    },
+    "openUrlLabel": "UnterstÃ¼tzte URL direkt Ã¶ffnen",
+    "webview": {
+      "clearLabel": "Webansicht-Daten lÃ¶schen"
+    },
+    "importList": "Liste mit Links importieren",
+    "exportLabel": "Lesezeichen als CSV-Datei exportieren",
+    "hideShorts": "Shorts verstecken",
+    "channelsFeed": "KanÃ¤le feed",
+    "importTakeout": "Import von YouTube takeout",
+    "injectCookie": "Cookie einfÃ¼gen, falls die Anmeldung Ã¼ber die Webansicht fehlschlÃ¤gt",
+    "injectCookieTitle": "FÃ¼ge den Authentifizierungs-Cookie in die Webansicht ein",
+    "injectCookieHint": "Kopieren Sie den Wert des Cookie-Headers aus Ihrem Browser auf dem PC. Dies ist eine NotlÃ¶sung, falls Sie sich nicht mit E-Mail-Adresse und Passwort anmelden konnten.",
+    "userAgent": {
+      "title": "Benutzerdefinierter Benutzer-Agent",
+      "default": "Standard-Benutzer-Agent"
+    },
+    "tools": "Werkzeuge",
+    "appearance": "Aussehen",
+    "preferencesContent": "Inhaltt",
+    "preferencesPlayback": "Wiedergabe & Anzeige",
+    "preferencesGeneral": "Allgemein",
+    "showBackButtonInHeader": "ZurÃ¼ck-SchaltflÃ¤che in der Symbolleiste anzeigen",
+    "proxy": {
+      "enabled": "Proxy aktivieren",
+      "type": "Proxy-Typ",
+      "host": "Proxy-Host",
+      "port": "Proxy-Port",
+      "hostPlaceholder": "z. B. 127.0.0.1 oder proxy.example.com",
+      "portPlaceholder": "z. B. 1080",
+      "label": "Proxy"
+    },
+    "preferences": "Voreinstellungen",
+    "preferencesDistractionFree": "Ablenkungsfrei",
+    "appearanceHint": "Werkzeugleiste, Sprache und Thema.",
+    "transfer": "Import & Export",
+    "toolbar": "Werkzeugleiste",
+    "headerPosition": {
+      "label": "Werkzeugleistenposition",
+      "top": "Oben",
+      "bottom": "Unten"
+    },
+    "toolbarButtons": "WerkzeugleistenschaltflÃ¤chen",
+    "translation": {
+      "enable": "Kommentare Ã¼bersetzen",
+      "targetLanguage": "Ãœbersetzen nach",
+      "appLanguage": "App",
+      "systemLanguage": "System",
+      "notSelected": "Sprache auswÃ¤hlen",
+      "chooseLanguage": "Zuerst eine Ãœbersetzungssprache auswÃ¤hlen",
+      "loading": "Wird Ã¼bersetzt â€¦",
+      "copy": "Ãœbersetzung kopieren",
+      "copySource": "Quelle kopieren",
+      "pin": "Ãœbersetzung anheften",
+      "unpin": "Ãœbersetzung loslÃ¶sen",
+      "failed": "Dieser Text konnte nicht Ã¼bersetzt werden",
+      "unsupported": "Das Sprachpaar ist auf diesem GerÃ¤t nicht verfÃ¼gbar"
+    },
+    "preferH264": "H.264 bevorzugen (VP9/AV1 blockieren)",
+    "showOriginalVideoTitle": "Originaltitel des Videos anzeigen",
+    "clickbaitThumbnail": {
+      "optionDefault": "Standard",
+      "optionFrame": "Bild {{n}}"
+    },
+    "blocklist": {
+      "label": "Sperrliste",
+      "hint": "YouTube-Videos nach Kanal oder SchlÃ¼sselwort im Titel ausblenden.",
+      "channels": "KanÃ¤le",
+      "keywords": "SchlÃ¼sselwÃ¶rter",
+      "channelPlaceholder": "Kanalname, Handle oder URL",
+      "keywordPlaceholder": "SchlÃ¼sselwort im Titel",
+      "emptyChannels": "Noch keine gesperrten KanÃ¤le.",
+      "emptyKeywords": "Noch keine gesperrten SchlÃ¼sselwÃ¶rter.",
+      "add": "HinzufÃ¼gen"
+    },
+    "userStyles": {
+      "label": "Benutzerstile und -skripte",
+      "add": "Stil hinzufÃ¼gen",
+      "addTitle": "Benutzerstil hinzufÃ¼gen",
+      "editTitle": "Benutzerstil bearbeiten",
+      "nameLabel": "Name",
+      "namePlaceholder": "Mein Stil",
+      "validation": {
+        "css": "CSS darf nicht leer sein"
+      },
+      "scripts": {
+        "add": "Skript hinzufÃ¼gen",
+        "addTitle": "Benutzerskript hinzufÃ¼gen",
+        "editTitle": "Benutzerskript bearbeiten",
+        "namePlaceholder": "Mein Skript",
+        "run": "AusfÃ¼hren",
+        "runComplete": "Skript ausgefÃ¼hrt",
+        "runFailed": "Skript fehlgeschlagen",
+        "import": "Importieren",
+        "pinToHeader": "An Werkzeugleiste anheften",
+        "pinToHeaderHint": "Dieses Skript als Werkzeugleistenaktion anzeigen.",
+        "pinnedToHeader": "An Werkzeugleiste angeheftet",
+        "validation": {
+          "js": "JavaScript darf nicht leer sein"
+        }
+      }
+    },
+    "language": {
+      "label": "Sprache",
+      "system": "System",
+      "hint": "Sprache auswÃ¤hlen oder Systemsprache folgen."
+    },
+    "importSettings": "Einstellungen importieren",
+    "importSettingsDescription": "Einstellungen aus einer MusicTube-Einstellungsdatei wiederherstellen",
+    "importSettingsDone": "Importiert: {{sections}}",
+    "exportSettings": "Einstellungen exportieren",
+    "groupYouTube": "YouTube",
+    "groupMusicTube": "MusicTube",
+    "preferencesComments": "Kommentare",
+    "sidebar": "Seitenleiste",
+    "preferencesYouTubeHint": "YouTube-Voreinstellungen",
+    "preferencesMusicTubeHint": "MusicTube-Voreinstellungen"
+  },
+  "sync": {
+    "label": "Synchronisieren",
+    "hint": "Als Premium-Nutzer kÃ¶nnen Sie Ihre Lesezeichen auf all Ihren Smartphones und Computern synchronisieren.",
+    "currentPlan": "Aktueller Plan",
+    "managePlan": "Plan verwalten"
+  },
+  "sleepTimer": {
+    "off": "Aus",
+    "endsIn": "Endet in {{value}}",
+    "preset": "{{value}} min",
+    "customPlaceholder": "Benutzerdefinierte Minuten",
+    "replace": "Ersetzen"
+  },
+  "changelog": {
+    "label": "Ã„nderungsprotokoll",
+    "current": "Aktuell",
+    "loading": "Versionshinweise werden geladen ...",
+    "retry": "Erneut versuchen",
+    "empty": "Keine Versionshinweise gefunden.",
+    "noNotes": "FÃ¼r diese Version wurden keine Versionshinweise bereitgestellt.",
+    "hint": "KÃ¼rzliche VerÃ¶ffentlichungen und Fehlerbehebungen von GitHub."
+  },
+  "update": {
+    "check": "Auf Aktualisierungen prÃ¼fen",
+    "downloading": "Aktualisierung v{{version}} wird heruntergeladen â€¦",
+    "downloadedTitle": "Aktualisierung bereit",
+    "checkHint": "Nachsehen, ob eine neuere Version verfÃ¼gbar ist",
+    "upToDate": "Du bist auf der neuesten Version",
+    "error": "Die ÃœberprÃ¼fung auf Aktualisierungen ist fehlgeschlagen",
+    "downloadedHint": "Version {{version}} wurde heruntergeladen. MÃ¶chtest du jetzt neu starten, um die Installation durchzufÃ¼hren?"
+  },
+  "feeds": {
+    "updates": "Aktualisierungen",
+    "manage": "Verwalten",
+    "sortLastVideo": "Letztes Video",
+    "lastVideoLabel": "Letztes Video",
+    "videosPerDay": "{{value}} Videos/Tag",
+    "never": "Nie",
+    "allFolders": "Alle",
+    "newFolder": "+ Neuer Ordner",
+    "frequencyLabel": "HÃ¤ufigkeit",
+    "sortFrequency": "HÃ¤ufigkeit",
+    "lastVideoNewest": "Letztes Video: Neueste zuerst",
+    "lastVideoOldest": "Letztes Video: Ã„lteste zuerst",
+    "frequencyHighest": "HÃ¤ufigkeit: HÃ¶chste zuerst",
+    "frequencyLowest": "HÃ¤ufigkeit: Niedrigste zuerst",
+    "filterDropdownPlaceholder": "Ordner und KanÃ¤le filtern",
+    "emptyTitleFolder": "Keine neuen BeitrÃ¤ge in {{folder}}",
+    "emptyTitleChannel": "Keine neuen BeitrÃ¤ge von {{channel}}",
+    "emptyActionFetchNow": "Jetzt abrufen",
+    "fetchToastRunning": "Auffrischen lÃ¤uft bereits",
+    "emptyActionAllFolders": "Alles anzeigen",
+    "removeTitle": "{{title}} entfernen?"
+  },
+  "bookmarks": {
+    "removed": "Lesezeichen entfernt",
+    "moved": "Nach {{folder}} verschoben",
+    "movedToRoot": "Aus dem Ordner heraus verschoben"
+  },
+  "folders": {
+    "removed": "Ordner {{name}} entfernt"
+  },
+  "native": {
+    "format_bestQuality": "Beste QualitÃ¤t",
+    "format_bestQualityDesc": "Bis zu {{height}}p Video + Audio",
+    "format_1080pDesc": "1080p Video + Audio",
+    "format_720pDesc": "720p Video + Audio",
+    "format_audioOnly": "Nur Audio",
+    "format_audio": "Audio ({{ext}})",
+    "download_complete": "Herunterladen abgeschlossen",
+    "download_failed": "Herunterladen fehlgeschlagen"
+  }
+}

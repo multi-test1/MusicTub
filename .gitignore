@@ -1,0 +1,11 @@
+﻿node_modules/
+.expo/
+android/.gradle/
+android/app/build/
+android/build/
+android/app/.cxx/
+build/
+dist/
+*.log
+.env
+.DS_Store

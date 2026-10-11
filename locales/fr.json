@@ -1,0 +1,457 @@
+{
+  "about": {
+    "label": "Ã€ propos",
+    "code": "Code source",
+    "donate": "Faire un don",
+    "hint": "Informations sur la version, mises Ã  jour, code source et liens vers l'assistance.",
+    "updates": "Mises Ã  jour"
+  },
+  "buttons": {
+    "clear": "Effacer",
+    "import": "Importer",
+    "export": "Exporter",
+    "open": "Ouvrir",
+    "cancel": "Annuler",
+    "openUrl": "Ouvrir l'URL",
+    "move": "DÃ©placer",
+    "save": "Enregistrer",
+    "signOut": "Se dÃ©connecter",
+    "remove": "Supprimer",
+    "unsubscribe": "Se dÃ©sabonner",
+    "clearAll": "Tout effacer",
+    "next": "Suivant",
+    "show": "Afficher",
+    "download": "TÃ©lÃ©charger",
+    "browse": "Parcourir",
+    "updateYtDlp": "Mise Ã  jour yt-dlp",
+    "updating": "Mise Ã  jour en cours...",
+    "ytDlpUpdated": "yt-dlp est Ã  jour",
+    "undo": "DÃ©faire",
+    "retry": "RÃ©essayer"
+  },
+  "library": {
+    "videos": "VidÃ©os",
+    "channels": "ChaÃ®nes",
+    "playlists": "Playlists",
+    "songs": "Titres",
+    "artists": "Artistes"
+  },
+  "menus": {
+    "edit": "Modifier",
+    "remove": "Supprimer",
+    "reload": "Recharger",
+    "share": "Partager",
+    "unsubscribe": "Se dÃ©sabonner",
+    "tools": "Outils",
+    "desktop": "Site pour ordinateur",
+    "off": "DÃ©sactivÃ©",
+    "on": "ActivÃ©",
+    "pip": "Picture-in-Picture",
+    "openInNewTab": "Ouvrir dans un nouvel onglet",
+    "duplicateTab": "Onglet Â« Dupliquer Â»",
+    "close": "Fermer",
+    "moveTo": "Aller Ã â€¦",
+    "unstar": "Retirer des favoris",
+    "star": "Favoris",
+    "download": "TÃ©lÃ©charger"
+  },
+  "modals": {
+    "editBookmark": "Modifier le signet",
+    "title": "Titre",
+    "folder": "Dossier",
+    "ungrouped": "Non regroupÃ©",
+    "feeds": "Flux",
+    "history": "Historique",
+    "queue": "File d'attente",
+    "downloadVideo": "TÃ©lÃ©charger la vidÃ©o",
+    "downloadsFolder": "TÃ©lÃ©charger le dossier",
+    "activeDownloads": "TÃ©lÃ©chargements actifs",
+    "starting": "C'est parti...",
+    "downloadComplete": "TÃ©lÃ©chargement complet",
+    "downloadFailed": "Ã‰chec du tÃ©lÃ©chargement",
+    "failedToLoadFormats": "Ã‰chec du chargement des formats",
+    "playbackSpeed": "Vitesse de lecture",
+    "downloadHistory": "Historique des tÃ©lÃ©chargements",
+    "playbackQuality": "QualitÃ© de lecture",
+    "sharePageUrl": "URL de la page",
+    "shareVideoUrl": "URL de la vidÃ©o",
+    "shareIncludePosition": "Indiquer le poste actuel",
+    "downloadUseCookies": "Utiliser mes cookies",
+    "downloadUseCookiesHint": "NÃ©cessaire pour les vidÃ©os soumises Ã  une restriction d'Ã¢ge, rÃ©servÃ©es aux membres ou privÃ©es. Cela peut entraÃ®ner votre dÃ©connexion de YouTube, et l'utilisation d'un compte de cette maniÃ¨re comporte un risque de signalement.",
+    "noFolder": "Aucun dossier",
+    "downloadErrorBlocked": "YouTube a refusÃ© ce tÃ©lÃ©chargement. Il nÃ©cessite un jeton que yt-dlp n'est pas encore en mesure de gÃ©nÃ©rerâ€¯; cette vidÃ©o ne peut donc pas Ãªtre tÃ©lÃ©chargÃ©e pour le moment â€” la plupart des autres vidÃ©os fonctionnent toujours.",
+    "downloadErrorSignIn": "YouTube exige que vous soyez connectÃ© pour visionner cette vidÃ©o. Activez l'option Â« Utiliser mes cookies Â» et rÃ©essayez.",
+    "downloadErrorFormat": "Ce format n'est plus disponible. Veuillez recharger la liste des formats et en choisir un autre.",
+    "downloadErrorUnavailable": "Cette vidÃ©o n'est pas disponible.",
+    "downloadErrorNetwork": "Impossible d'accÃ©der Ã  YouTube. VÃ©rifiez votre connexion et rÃ©essayez.",
+    "showAllFormats": "Afficher tous les formats",
+    "showFewerFormats": "Afficher moins de formats",
+    "pinnedFormat": "Ã‰pinglÃ©",
+    "pinFormat": "DÃ©finir comme format par dÃ©faut",
+    "unpinFormat": "DÃ©sÃ©lectionner le format par dÃ©faut"
+  },
+  "settings": {
+    "label": "ParamÃ¨tres",
+    "general": "GÃ©nÃ©ral",
+    "restoreOnStart": "Restaurer la derniÃ¨re session au dÃ©marrage",
+    "hideShorts": "Masquer les shorts dans la chronologie",
+    "channelsFeed": "Flux des chaÃ®nes",
+    "watchHistory": "Historique des visionnages",
+    "theme": {
+      "label": "ThÃ¨me",
+      "system": "SystÃ¨me",
+      "dark": "Sombre",
+      "light": "Clair",
+      "hint": "S'applique Ã  l'application et Ã  YouTube. RedÃ©marrez manuellement si la modification n'apparaÃ®t pas dans la vue Web."
+    },
+    "login": {
+      "label": "Essayez ceci si vous ne parvenez pas Ã  vous connecter depuis Webview",
+      "button": "Connexion YouTube"
+    },
+    "openUrlLabel": "Ouvrir directement l'URL prise en charge",
+    "webview": {
+      "clearLabel": "Effacer les donnÃ©es WebView"
+    },
+    "importList": "Importer une liste de liens",
+    "importTakeout": "Importer depuis YouTube",
+    "exportLabel": "Exporter les signets vers un fichier CSV",
+    "injectCookie": "Injecter un cookie si la connexion depuis la vue Web a Ã©chouÃ©",
+    "injectCookieTitle": "Injecter le cookie d'authentification dans la vue Web",
+    "injectCookieHint": "Copiez la valeur de l'en-tÃªte Cookie depuis le navigateur de votre PC. Ceci constitue une solution de contournement si vous ne parvenez pas Ã  vous connecter avec votre adresse e-mail et votre mot de passe.",
+    "userAgent": {
+      "title": "Agent utilisateur personnalisÃ©",
+      "default": "Agent utilisateur par dÃ©faut"
+    },
+    "hubHint": "Des outils de lecture, de synchronisation, d'importation et de visualisation Web, le tout en un seul endroit.",
+    "generalHint": "ParamÃ¨tres par dÃ©faut de lecture, apparence, outils et transfert de donnÃ©es.",
+    "preferences": "PrÃ©fÃ©rences",
+    "preferencesHint": "Comportement de la lecture, du flux et de l'historique.",
+    "appearance": "Apparence",
+    "appearanceHint": "Barre d'outils, langue et thÃ¨me.",
+    "tools": "Outils",
+    "toolsHint": "GÃ©rer l'environnement WebView et les autres outils.",
+    "transfer": "Import & export",
+    "transferHint": "Importer vos marque-pages ou emportez-les avec vous.",
+    "syncHintShort": "Synchronisation des comptes, des forfaits et des appareils.",
+    "autoHideHeader": "Afficher ou masquer la barre d'outils en fonction du sens de dÃ©filement",
+    "hideShortsInNavbar": "Masquer les shorts dans la barre de navigation",
+    "hideMixPlaylist": "Masquer la playlist mixÃ©e",
+    "userStyles": {
+      "label": "Styles & Scripts PersonnalisÃ©s",
+      "hint": "Vos propres feuilles de style CSS et scripts utilisateur spÃ©cifiques au site.",
+      "builtin": {
+        "label": "Styles intÃ©grÃ©s",
+        "hideShortsInNavbar": {
+          "label": "Masquer les Â« Shorts Â» dans la barre de navigation"
+        },
+        "hideMixPlaylist": {
+          "label": "Masquer la playlist Â« Mix Â»"
+        },
+        "hideCommunityPosts": {
+          "label": "Masquer les publications de la communautÃ©"
+        },
+        "hideAskButton": {
+          "label": "Masquer le bouton Â« Demander Ã  Gemini Â»"
+        },
+        "hideHomeFeed": {
+          "label": "Masquer le fil d'actualitÃ© de la page d'accueil"
+        },
+        "hideRelatedVideos": {
+          "label": "Masquer les vidÃ©os associÃ©es"
+        },
+        "hideEndScreens": {
+          "label": "Masquer les Ã©crans de fin"
+        }
+      },
+      "custom": {
+        "label": "Styles personnalisÃ©s",
+        "empty": "Il n'y a pas encore de styles personnalisÃ©s."
+      },
+      "add": "Ajouter une touche de style",
+      "addTitle": "Ajouter un style utilisateur",
+      "editTitle": "Modifier le style de l'utilisateur",
+      "nameLabel": "Nom",
+      "namePlaceholder": "Mon style",
+      "validation": {
+        "css": "Le CSS ne peut pas Ãªtre vide"
+      },
+      "deleteConfirm": "Supprimer ce style personnalisÃ©â€¯?",
+      "copyCss": "Copier le CSS",
+      "cssCopied": "CSS copiÃ©",
+      "copyFailed": "Ã‰chec de la copie du CSS",
+      "importFailed": "Ã‰chec de l'importation du CSS",
+      "scripts": {
+        "label": "Scripts personnalisÃ©s",
+        "empty": "Aucun script personnalisÃ© pour le moment.",
+        "add": "Ajouter un script",
+        "addTitle": "Ajouter un script utilisateur",
+        "editTitle": "Modifier le script utilisateur",
+        "namePlaceholder": "Mon script",
+        "runComplete": "Le script s'est exÃ©cutÃ©",
+        "runFailed": "Le script a Ã©chouÃ©",
+        "import": "Importation",
+        "importFailed": "Ã‰chec de l'importation du script",
+        "run": "ExÃ©cution",
+        "deleteConfirm": "Supprimer ce script personnalisÃ©â€¯?",
+        "noActiveTab": "Aucune vue Web active",
+        "validation": {
+          "js": "Le champ JavaScript ne peut pas Ãªtre vide"
+        },
+        "pinToHeader": "Ã‰pingler Ã  la barre d'outils",
+        "pinToHeaderHint": "Afficher ce script sous forme d'action de la barre d'outils.",
+        "pinnedToHeader": "Ã‰pinglÃ© Ã  la barre d'outils",
+        "runAtStart": "ExÃ©cuter au dÃ©but du document",
+        "runAtStartHint": "Ã€ exÃ©cuter avant la construction du DOM, et non aprÃ¨s l'Ã©vÃ©nement DOMContentLoaded.",
+        "runAtStartDesktopHint": "Pas encore disponible sur ordinateurâ€¯; les scripts s'exÃ©cutent dÃ¨s que le DOM est prÃªt.",
+        "runAtStartBadge": "S'exÃ©cute au dÃ©but du document"
+      },
+      "builtinScripts": {
+        "label": "Scripts intÃ©grÃ©s",
+        "fixEncodedAuthorNames": {
+          "label": "Corriger les caractÃ¨res spÃ©ciaux dans les noms d'auteurs"
+        }
+      }
+    },
+    "hideToolbarWhenScrolled": "Masquer la barre d'outils lorsque la page n'est pas en haut de page",
+    "language": {
+      "label": "Langue",
+      "system": "SystÃ¨me",
+      "hint": "Choisissez une langue ou utilisez la langue du systÃ¨me."
+    },
+    "miniPlayer": "Mini-lecteur",
+    "preferH264": "PrivilÃ©gier le format H.264 (bloquer VP9/AV1)",
+    "clickbaitThumbnail": {
+      "label": "Ã‰vitez les miniatures Â« clickbait Â»",
+      "hint": "Remplacer les vignettes des crÃ©ateurs par des images extraites de la vidÃ©o gÃ©nÃ©rÃ©es automatiquement",
+      "optionDefault": "DÃ©faut",
+      "optionFrame": "Cadre {{n}}"
+    },
+    "headerPosition": {
+      "label": "Position de la barre d'outils",
+      "top": "En haut",
+      "bottom": "En bas"
+    },
+    "showHomeButtonInHeader": "Afficher le bouton Â« Accueil Â» dans la barre d'outils",
+    "showBackButtonInHeader": "Afficher le bouton Â« Retour Â» dans la barre d'outils",
+    "showForwardButtonInHeader": "Afficher le bouton Â« Suivant Â» dans la barre d'outils",
+    "blocklist": {
+      "label": "Liste noire",
+      "hint": "Masquer les vidÃ©os YouTube par chaÃ®ne ou par mot-clÃ© du titre.",
+      "channels": "ChaÃ®nes",
+      "keywords": "Mots clÃ©s",
+      "channelPlaceholder": "Nom de la chaÃ®ne, identifiant ou URL",
+      "keywordPlaceholder": "Mot-clÃ© du titre",
+      "emptyChannels": "Aucune chaÃ®ne n'est encore bloquÃ©e.",
+      "emptyKeywords": "Aucun mot-clÃ© n'a encore Ã©tÃ© bloquÃ©.",
+      "add": "Ajouter",
+      "channelsNote": "Les chaÃ®nes correspondent exactement par nom, identifiant ou ID de chaÃ®ne.",
+      "keywordsNote": "Les mots-clÃ©s sont recherchÃ©s par inclusion (recherche de sous-chaÃ®nes dans les titres)."
+    },
+    "autoHideSidebar": "Masquer automatiquement la barre latÃ©rale et l'afficher au survol",
+    "showDislikes": "Afficher les Â« Je n'aime pas Â»",
+    "showOriginalVideoTitle": "Afficher le titre original de la vidÃ©o",
+    "preferencesContent": "Contenu",
+    "preferencesPlayback": "Lecture & Affichage",
+    "preferencesGeneral": "GÃ©nÃ©ral",
+    "pullToRefresh": "Tirez pour actualiser",
+    "showReloadButtonInHeader": "Afficher le bouton Â« Actualiser Â» dans la barre d'outils",
+    "zoom": {
+      "label": "Zoom sur le texte",
+      "defaultLabel": "Zoom sur le texte",
+      "defaultHint": "RÃ©gler la taille du texte des pages Web de YouTube."
+    },
+    "proxy": {
+      "label": "Proxy",
+      "enabled": "Activer le proxy",
+      "type": "Type de proxy",
+      "host": "Serveur proxy",
+      "port": "Port du proxy",
+      "hostPlaceholder": "par exempleÂ : 127.0.0.1 ou proxy.example.com",
+      "portPlaceholder": "par exemple 1080"
+    },
+    "toolbar": "Barre d'outils",
+    "toolbarButtons": "Boutons de la barre d'outils",
+    "showHistoryButtonInHeader": "Bouton Â« Afficher l'historique Â» dans la barre d'outils",
+    "doubleTapToToggleHeader": "Appuyez deux fois sur la page pour masquer ou afficher la barre d'outils",
+    "translation": {
+      "enable": "Traduire les commentaires",
+      "hint": "Afficher un bouton Â« Traduire Â» sur les commentaires pour les traduire sur votre appareil.",
+      "targetLanguage": "Traduire en",
+      "appLanguage": "Application",
+      "systemLanguage": "SystÃ¨me",
+      "notSelected": "Choisissez une langue",
+      "chooseLanguage": "Choisissez d'abord la langue de traduction",
+      "loading": "Traduction en coursâ€¦",
+      "copy": "Copier la traduction",
+      "copySource": "Copier le code source",
+      "pin": "Ã‰pingler la traduction",
+      "unpin": "DÃ©tacher la traduction",
+      "failed": "Impossible de traduire ce texte",
+      "unsupported": "Cette combinaison linguistique n'est pas disponible sur cet appareil."
+    },
+    "replaceWatchNavigation": "Retour aux vidÃ©os visionnÃ©es",
+    "importSettings": "Importer les paramÃ¨tres",
+    "importSettingsDescription": "Restaurer les paramÃ¨tres Ã  partir d'un fichier de paramÃ¨tres MusicTube",
+    "importSettingsConfirm": "Cela remplacera vos paramÃ¨tres actuels, votre liste de blocage, vos styles personnalisÃ©s et vos scripts personnalisÃ©s. Voulez-vous continuerâ€¯?",
+    "importSettingsWithScriptsConfirm": "Ce fichier contient {{count}} script(s) personnalisÃ©(s) activÃ©(s), qui peuvent exÃ©cuter du code au sein de YouTube. Ne poursuivez l'opÃ©ration que si vous faites confiance Ã  ce fichier. Vos paramÃ¨tres actuels, votre liste de blocage, vos styles utilisateur et vos scripts personnalisÃ©s seront remplacÃ©s.",
+    "importSettingsDone": "ImportÃ©Â : {{sections}}",
+    "exportSettings": "ParamÃ¨tres d'exportation",
+    "exportSettingsDescription": "Enregistrer les paramÃ¨tres, la liste noire, les styles utilisateur et les scripts personnalisÃ©s dans un fichier JSON",
+    "preferencesDistractionFree": "Sans distraction",
+    "groupYouTube": "YouTube",
+    "groupMusicTube": "MusicTube",
+    "preferencesComments": "Commentaires",
+    "sidebar": "EncadrÃ©",
+    "preferencesYouTubeHint": "ParamÃ¨tres YouTube",
+    "preferencesMusicTubeHint": "PrÃ©fÃ©rences MusicTube",
+    "systemCaptionStyle": {
+      "label": "Utiliser le style de lÃ©gende du systÃ¨me",
+      "hint": "Applique la couleur des sous-titres, l'arriÃ¨re-plan et la taille du texte d'Android aux sous-titres de YouTube.",
+      "openSystemSettings": "ParamÃ¨tres de lÃ©gendes du systÃ¨me"
+    },
+    "showSleepTimerButtonInHeader": "Afficher le bouton Â« Minuterie Â» dans la barre d'outils",
+    "showLibraryButtonInHeader": "Afficher le bouton Â« BibliothÃ¨que Â» dans la barre d'outils",
+    "showStarButtonInHeader": "Afficher le bouton Â« Star Â» dans la barre d'outils",
+    "mediaNotificationButtons": "Boutons de notification multimÃ©dia",
+    "showMediaNotificationPrevButton": "Afficher le bouton Â« PrÃ©cÃ©dent Â»",
+    "showMediaNotificationNextButton": "Afficher le bouton Â« Suivant Â»",
+    "showMediaNotificationRewindButton": "Afficher le bouton Â« Retour en arriÃ¨re Â»",
+    "showMediaNotificationForwardButton": "Afficher le bouton Â« Suivant Â»",
+    "showMediaNotificationSpeedButton": "Afficher le bouton Â« Vitesse de Lecture Â»",
+    "showMediaNotificationCloseButton": "Afficher le bouton Â« Fermer Â»",
+    "mediaNotificationButtonsHint": "Android affiche au maximum quatre de ces boutons Ã  cÃ´tÃ© du bouton de lecture, dans l'ordre indiquÃ© ici. La fonction {{selected}} est activÃ©e.",
+    "miniPlayerHint": "Lorsque vous laissez une vidÃ©o en lecture, celle-ci continue de s'afficher dans un coin de la page.",
+    "pictureInPicture": "Picture-in-picture",
+    "pictureInPictureHint": "La vidÃ©o continue de s'afficher dans une fenÃªtre flottante lorsque vous quittez l'application.",
+    "blockAds": {
+      "label": "Bloquer les publicitÃ©s",
+      "hint": "DÃ©sactivez cette option pour autoriser les publicitÃ©s YouTube et soutenir les crÃ©ateurs."
+    }
+  },
+  "sync": {
+    "label": "Synchronisation",
+    "hint": "Synchronisez vos signets entre vos tÃ©lÃ©phones et vos ordinateurs en tant qu'utilisateur premium.",
+    "currentPlan": "Plan actuel",
+    "managePlan": "GÃ©rer le plan"
+  },
+  "feeds": {
+    "updates": "Mises Ã  jour",
+    "manage": "GÃ©rer",
+    "sortLastVideo": "DerniÃ¨re vidÃ©o",
+    "sortFrequency": "FrÃ©quence",
+    "lastVideoNewest": "DerniÃ¨re vidÃ©oÂ : la plus rÃ©cente en premier",
+    "lastVideoOldest": "DerniÃ¨re vidÃ©oÂ : la plus ancienne en premier",
+    "frequencyHighest": "FrÃ©quenceÂ : les plus Ã©levÃ©es en premier",
+    "frequencyLowest": "FrÃ©quenceÂ : les plus basses en premier",
+    "frequencyLabel": "FrÃ©quence",
+    "lastVideoLabel": "DerniÃ¨re vidÃ©o",
+    "videosPerDay": "{{value}} vidÃ©os/jour",
+    "never": "Jamais",
+    "allFolders": "Tout",
+    "newFolder": "+ Nouveau dossier",
+    "editFeed": "Modifier le flux",
+    "manageEmpty": "Aucun flux enregistrÃ© pour l'instant.",
+    "manageNoResults": "Aucun flux ne correspond aux critÃ¨res de filtrage actuels.",
+    "updatesEmpty": "Aucune vidÃ©o du flux ne correspond au filtre du dossier actuel.",
+    "filterDropdownPlaceholder": "Filtrer les dossiers et les chaÃ®nes",
+    "filterDropdownEmpty": "Aucun dossier ni canal ne correspond.",
+    "emptyTitleNoChannels": "Aucune chaÃ®ne Ã©toilÃ©e",
+    "emptyBodyNoChannels": "Les mises Ã  jour des chaÃ®nes YouTube que vous avez ajoutÃ©es Ã  vos favoris s'afficheront ici.",
+    "emptyTitleFolder": "Aucune mise Ã  jour dans {{folder}}",
+    "emptyTitleChannel": "Aucune mise Ã  jour de la part de {{channel}}",
+    "emptyBodyFiltered": "Il n'y a actuellement aucune vidÃ©o rÃ©cente ici. Revenez plus tard ou sÃ©lectionnez Â« Toutes Â».",
+    "emptyActionFetchNow": "RÃ©cupÃ©rer maintenant",
+    "fetchToastSuccess": "Flux actualisÃ©",
+    "fetchToastRunning": "Actualisation en cours",
+    "fetchToastNotFound": "Impossible d'actualiser ce flux. Le flux a renvoyÃ© une erreur 404.",
+    "fetchToastError": "Impossible d'actualiser cette chaÃ®ne",
+    "emptyActionAllFolders": "Tout afficher",
+    "emptyTitleWaiting": "En attente de mises Ã  jour du flux",
+    "emptyBodyWaiting": "Vos chaÃ®nes enregistrÃ©es sont prÃªtes. Laissez l'application ouverte quelques instants ou rouvrez-la plus tardÂ : les derniÃ¨res vidÃ©os mises en ligne s'afficheront ici.",
+    "removeTitle": "Supprimer {{title}}â€¯?",
+    "removeMessage": "Cela supprime la chaÃ®ne de la bibliothÃ¨que et efface ses vidÃ©os."
+  },
+  "changelog": {
+    "label": "Journal des modifications",
+    "hint": "DerniÃ¨res versions et corrections publiÃ©es sur GitHub.",
+    "loading": "Chargement des notes de mise Ã  jour...",
+    "error": "Impossible de charger les notes de mise Ã  jour.",
+    "retry": "RÃ©essayer",
+    "empty": "Aucune note de mise Ã  jour trouvÃ©e.",
+    "current": "Actuel",
+    "noNotes": "Aucune note de mise Ã  jour n'a Ã©tÃ© fournie pour cette version."
+  },
+  "sleepTimer": {
+    "label": "Minuterie de mise en veille",
+    "hint": "Mettez la lecture en pause aprÃ¨s une durÃ©e prÃ©dÃ©finie ou aprÃ¨s le nombre de minutes de votre choix.",
+    "activeHint": "La lecture s'interrompra Ã  la fin de ce compte Ã  rebours.",
+    "off": "Off",
+    "endsIn": "Se termine dans {{value}}",
+    "preset": "{{value}} min",
+    "customPlaceholder": "Minutes personnalisÃ©es",
+    "set": "RÃ©gler le minuteur",
+    "cancel": "Annuler le minuteur",
+    "replace": "Remplacer",
+    "validation": {
+      "minutes": "Entrez un nombre entier de minutes compris entre 1 et 1 440"
+    },
+    "setToast": "Minuterie de mise en veille rÃ©glÃ©e sur {{value}} minutes",
+    "cancelToast": "Minuterie de mise en veille dÃ©sactivÃ©e",
+    "expiredToast": "La minuterie de mise en veille a expirÃ©"
+  },
+  "native": {
+    "format_bestQuality": "QualitÃ© optimale",
+    "format_bestQualityDesc": "Jusqu'Ã  {{height}}p en vidÃ©o et audio",
+    "format_1080pDesc": "VidÃ©o 1080p + audio",
+    "format_720pDesc": "VidÃ©o 720p + audio",
+    "format_audioOnly": "Audio uniquement",
+    "format_audio": "Audio ({{ext}})",
+    "format_audioStreamDesc": "Meilleur flux audio",
+    "format_audioMp3Desc": "Meilleure version audio transcodÃ©e en MP3",
+    "download_complete": "TÃ©lÃ©chargement complet",
+    "download_failed": "Ã‰chec du tÃ©lÃ©chargement"
+  },
+  "update": {
+    "check": "VÃ©rifier les mises Ã  jour",
+    "checkHint": "VÃ©rifiez si une version plus rÃ©cente est disponible",
+    "upToDate": "Vous utilisez la derniÃ¨re version",
+    "downloading": "TÃ©lÃ©chargement de la mise Ã  jour v{{version}}â€¦",
+    "error": "Ã‰chec de la vÃ©rification des mises Ã  jour",
+    "downloadedTitle": "PrÃªt pour la mise Ã  jour",
+    "downloadedHint": "La version {{version}} a Ã©tÃ© tÃ©lÃ©chargÃ©e. Voulez-vous redÃ©marrer maintenant pour l'installerâ€¯?"
+  },
+  "bookmarks": {
+    "removed": "Signet supprimÃ©",
+    "moved": "DÃ©placÃ© vers {{folder}}",
+    "movedToRoot": "DÃ©placÃ© hors du dossier"
+  },
+  "folders": {
+    "removed": "Le dossier {{name}} a Ã©tÃ© supprimÃ©"
+  },
+  "pageLoadError": {
+    "title": "Impossible de charger cette page",
+    "description": "VÃ©rifiez votre connexion, puis rÃ©essayez."
+  },
+  "extension": {
+    "openOptions": "Liste noire et styles personnalisÃ©s",
+    "reloadTabs": "Actualiser les onglets YouTube",
+    "applyHint": "Certaines options ne prennent effet qu'au prochain chargement de la page.",
+    "userScriptsUnavailable": "Les scripts utilisateur nÃ©cessitent l'autorisation correspondante dans le navigateur. Dans Chrome, ouvrez la page de dÃ©tails de l'extension et autorisez les scripts utilisateur.",
+    "feeds": "Flux",
+    "library": "BibliothÃ¨que",
+    "signIn": "Se connecter",
+    "signedOut": "Non connectÃ©",
+    "syncNow": "Synchroniser maintenant",
+    "refreshFeeds": "Actualiser les flux",
+    "manageFeeds": "GÃ©rer les flux",
+    "account": "Compte et synchronisation",
+    "more": "Plus",
+    "openExpanded": "Ouvrir dans un nouvel onglet",
+    "openYouTube": "Ouvrir YouTube",
+    "openYouTubeMusic": "Ouvrir YouTube Music",
+    "saveCurrentPage": "Enregistrer la page actuelle"
+  },
+  "history": {
+    "cleared": "Historique effacÃ©"
+  }
+}

@@ -1,0 +1,479 @@
+{
+  "about": {
+    "label": "O aplikacji",
+    "code": "Kod ÅºrÃ³dÅ‚owy",
+    "updates": "Aktualizacje",
+    "hint": "Informacje o wersji, aktualizacje, kod ÅºrÃ³dÅ‚owy i linki pomocy technicznej.",
+    "donate": "Darowizna"
+  },
+  "changelog": {
+    "label": "Dziennik zmian",
+    "hint": "Najnowsze wydania i poprawki z GitHub.",
+    "loading": "Åadowanie informacji o wydaniu...",
+    "error": "Nie udaÅ‚o siÄ™ zaÅ‚adowaÄ‡ informacji o wydaniu.",
+    "retry": "PonÃ³w",
+    "empty": "Nie znaleziono Å¼adnych informacji o wydaniu.",
+    "current": "Aktualny",
+    "noNotes": "Dla tej wersji nie udostÄ™pniono Å¼adnych informacji o wydaniu."
+  },
+  "buttons": {
+    "clear": "WyczyÅ›Ä‡",
+    "clearAll": "WyczyÅ›Ä‡ wszystko",
+    "import": "Importuj",
+    "export": "Eksportuj",
+    "open": "OtwÃ³rz",
+    "cancel": "Anuluj",
+    "openUrl": "OtwÃ³rz URL",
+    "move": "PrzenieÅ›",
+    "save": "Zapisz",
+    "remove": "UsuÅ„",
+    "unsubscribe": "Odsubskrybuj",
+    "signOut": "Wyloguj siÄ™",
+    "next": "Dalej",
+    "show": "PokaÅ¼",
+    "download": "Pobierz",
+    "browse": "PrzeglÄ…daj",
+    "updateYtDlp": "Aktualizacja yt-dlp",
+    "updating": "Aktualizowanie...",
+    "ytDlpUpdated": "yt-dlp jest aktualny",
+    "undo": "Cofnij",
+    "retry": "PonÃ³w",
+    "confirm": "PotwierdÅº"
+  },
+  "library": {
+    "videos": "Filmy",
+    "channels": "KanaÅ‚y",
+    "playlists": "Listy odtwarzania",
+    "songs": "Piosenki",
+    "artists": "ArtyÅ›ci"
+  },
+  "menus": {
+    "openInNewTab": "OtwÃ³rz w nowej karcie",
+    "edit": "Edytuj",
+    "remove": "UsuÅ„",
+    "unsubscribe": "Odsubskrybuj",
+    "reload": "PrzeÅ‚aduj",
+    "share": "UdostÄ™pnij",
+    "pip": "Obraz w obrazie",
+    "duplicateTab": "Duplikuj kartÄ™",
+    "close": "Zamknij",
+    "tools": "NarzÄ™dzia",
+    "desktop": "Wersja na komputer",
+    "on": "WÅ‚Ä…czone",
+    "off": "WyÅ‚Ä…czone",
+    "moveTo": "PrzenieÅ› doâ€¦",
+    "download": "Pobieranie",
+    "unstar": "UsuÅ„ z ulubionych",
+    "star": "Dodaj do ulubionych"
+  },
+  "modals": {
+    "editBookmark": "Edytuj zakÅ‚adkÄ™",
+    "title": "TytuÅ‚",
+    "folder": "Folder",
+    "ungrouped": "Niepogrupowane",
+    "feeds": "Subskrypcje",
+    "history": "Historia",
+    "queue": "Kolejka",
+    "downloadVideo": "Pobierz wideo",
+    "downloadsFolder": "Pobierz folder",
+    "activeDownloads": "Aktywne pobierania",
+    "starting": "Rozpoczynanie...",
+    "downloadComplete": "Pobieranie zakoÅ„czone",
+    "downloadHistory": "Historia pobierania",
+    "downloadFailed": "BÅ‚Ä…d pobierania",
+    "failedToLoadFormats": "Nie udaÅ‚o siÄ™ zaÅ‚adowaÄ‡ formatÃ³w",
+    "playbackSpeed": "PrÄ™dkoÅ›Ä‡ odtwarzania",
+    "playbackQuality": "JakoÅ›Ä‡ odtwarzania",
+    "sharePageUrl": "Adres URL strony",
+    "shareVideoUrl": "Adres URL filmu",
+    "shareIncludePosition": "UwzglÄ™dnij aktualnÄ… pozycjÄ™",
+    "downloadUseCookies": "UÅ¼yj moich plikÃ³w cookie",
+    "downloadUseCookiesHint": "Wymagane w przypadku filmÃ³w z ograniczeniami wiekowymi, tylko dla czÅ‚onkÃ³w lub prywatnych. MoÅ¼e spowodowaÄ‡ wylogowanie z YouTube, a korzystanie z konta w ten sposÃ³b wiÄ…Å¼e siÄ™ z ryzykiem oznaczenia go.",
+    "noFolder": "Brak folderu",
+    "downloadErrorBlocked": "YouTube odrzuciÅ‚ pobranie tego filmu. Wymaga to tokena, ktÃ³rego yt-dlp nie moÅ¼e jeszcze wygenerowaÄ‡, dlatego na razie nie moÅ¼na pobraÄ‡ tego filmu â€” wiÄ™kszoÅ›Ä‡ innych filmÃ³w nadal dziaÅ‚a.",
+    "downloadErrorSignIn": "YouTube wymaga zalogowanej sesji dla tego filmu. WÅ‚Ä…cz opcjÄ™ â€žUÅ¼yj moich plikÃ³w cookieâ€ i sprÃ³buj ponownie.",
+    "downloadErrorFormat": "Ten format nie jest juÅ¼ dostÄ™pny. ZaÅ‚aduj formaty ponownie i wybierz inny.",
+    "downloadErrorUnavailable": "Ten film jest niedostÄ™pny.",
+    "downloadErrorNetwork": "Nie udaÅ‚o siÄ™ poÅ‚Ä…czyÄ‡ z YouTube. SprawdÅº poÅ‚Ä…czenie i sprÃ³buj ponownie.",
+    "showAllFormats": "PokaÅ¼ wszystkie formaty",
+    "showFewerFormats": "PokaÅ¼ mniej formatÃ³w",
+    "pinnedFormat": "PrzypiÄ™te",
+    "pinFormat": "Przypnij jako format domyÅ›lny",
+    "unpinFormat": "Odepnij domyÅ›lny format"
+  },
+  "update": {
+    "check": "SprawdÅº aktualizacje",
+    "checkHint": "SprawdÅº, czy jest dostÄ™pna nowsza wersja",
+    "upToDate": "Masz najnowszÄ… wersjÄ™",
+    "downloading": "Pobieranie aktualizacji v{{version}}â€¦",
+    "error": "Nie udaÅ‚o siÄ™ sprawdziÄ‡ dostÄ™pnoÅ›ci aktualizacji",
+    "downloadedTitle": "Aktualizacja gotowa",
+    "downloadedHint": "Wersja {{version}} zostaÅ‚a pobrana. UruchomiÄ‡ ponownie, aby zainstalowaÄ‡?"
+  },
+  "sleepTimer": {
+    "label": "WyÅ‚Ä…cznik czasowy",
+    "hint": "Wstrzymaj odtwarzanie po upÅ‚ywie ustawionego czasu lub wybranej przez siebie wartoÅ›ci minut.",
+    "activeHint": "Odtwarzanie zostanie wstrzymane po zakoÅ„czeniu odliczania.",
+    "off": "WyÅ‚Ä…cz",
+    "endsIn": "WyÅ‚Ä…czy siÄ™ za {{value}}",
+    "preset": "{{value}} min",
+    "customPlaceholder": "Niestandardowe minuty",
+    "set": "Ustaw minutnik",
+    "cancel": "Anuluj minutnik",
+    "replace": "ZastÄ…p",
+    "validation": {
+      "minutes": "WprowadÅº liczbÄ™ caÅ‚kowitÄ… minut od 1 do 1440"
+    },
+    "setToast": "Ustawiono wyÅ‚Ä…cznik czasowy na {{value}} minut",
+    "cancelToast": "WyÅ‚Ä…cznik czasowy anulowany",
+    "expiredToast": "WyÅ‚Ä…cznik czasowy upÅ‚ynÄ…Å‚"
+  },
+  "feeds": {
+    "updates": "Aktualizacje",
+    "manage": "ZarzÄ…dzaj",
+    "sortLastVideo": "Ostatni film",
+    "sortFrequency": "CzÄ™stotliwoÅ›Ä‡",
+    "lastVideoNewest": "Ostatni film: najnowsze na poczÄ…tku",
+    "lastVideoOldest": "Ostatni film: najstarsze na poczÄ…tku",
+    "frequencyHighest": "CzÄ™stotliwoÅ›Ä‡: od najwyÅ¼szej",
+    "frequencyLowest": "CzÄ™stotliwoÅ›Ä‡: od najniÅ¼szej",
+    "frequencyLabel": "CzÄ™stotliwoÅ›Ä‡",
+    "lastVideoLabel": "Ostatni film",
+    "videosPerDay": "{{value}} filmÃ³w/dzieÅ„",
+    "never": "Nigdy",
+    "allFolders": "Wszystko",
+    "newFolder": "+ Nowy folder",
+    "editFeed": "Edytuj kanaÅ‚",
+    "manageEmpty": "Brak zapisanych kanaÅ‚Ã³w.",
+    "manageNoResults": "Å»aden kanaÅ‚ nie speÅ‚nia wymagaÅ„ obecnych filtrÃ³w.",
+    "updatesEmpty": "Å»adne wideo z kanaÅ‚u nie pasuje do obecnego filtra folderÃ³w.",
+    "filterDropdownPlaceholder": "Filtruj foldery i kanaÅ‚y",
+    "filterDropdownEmpty": "Nie znaleziono Å¼adnych folderÃ³w ani kanaÅ‚Ã³w.",
+    "emptyTitleNoChannels": "Brak kanaÅ‚Ã³w oznaczonych gwiazdkÄ…",
+    "emptyBodyNoChannels": "Tutaj bÄ™dÄ… wyÅ›wietlane aktualizacje z kanaÅ‚Ã³w YouTube oznaczonych gwiazdkÄ….",
+    "emptyTitleFolder": "Brak aktualizacji w {{folder}}",
+    "emptyTitleChannel": "Brak aktualizacji z {{channel}}",
+    "emptyBodyFiltered": "Aktualnie nie ma tu Å¼adnych nowych filmÃ³w. SprawdÅº pÃ³Åºniej lub przeÅ‚Ä…cz na â€žWszystkieâ€.",
+    "emptyActionFetchNow": "Pobierz teraz",
+    "fetchToastSuccess": "KanaÅ‚ odÅ›wieÅ¼ony",
+    "fetchToastRunning": "OdÅ›wieÅ¼anie juÅ¼ w toku",
+    "fetchToastNotFound": "Nie udaÅ‚o siÄ™ odÅ›wieÅ¼yÄ‡ tego kanaÅ‚u. ZwrÃ³cono bÅ‚Ä…d 404.",
+    "fetchToastError": "Nie moÅ¼na odÅ›wieÅ¼yÄ‡ tego kanaÅ‚u",
+    "emptyActionAllFolders": "PokaÅ¼ wszystko",
+    "emptyTitleWaiting": "Oczekiwanie na aktualizacje kanaÅ‚u",
+    "emptyBodyWaiting": "Twoje zapisane kanaÅ‚y sÄ… gotowe. Pozostaw aplikacjÄ™ otwartÄ… na chwilÄ™ lub otwÃ³rz jÄ… ponownie pÃ³Åºniej, a ostatnio przesÅ‚ane pliki pojawiÄ… siÄ™ tutaj.",
+    "removeTitle": "UsunÄ…Ä‡ {{title}}?",
+    "removeMessage": "Spowoduje to usuniÄ™cie kanaÅ‚u z biblioteki i wyczyszczenie jego kanaÅ‚Ã³w wideo."
+  },
+  "settings": {
+    "label": "Ustawienia",
+    "hubHint": "NarzÄ™dzia do odtwarzania, synchronizacji, importowania i przeglÄ…dania w jednym miejscu.",
+    "general": "OgÃ³lne",
+    "generalHint": "DomyÅ›lne ustawienia odtwarzania, wyglÄ…d, narzÄ™dzia i transfer danych.",
+    "preferences": "Preferencje",
+    "preferencesHint": "Odtwarzanie, przesyÅ‚anie i zachowanie historii.",
+    "preferencesContent": "ZawartoÅ›Ä‡",
+    "preferencesGeneral": "OgÃ³lne",
+    "preferencesPlayback": "Odtwarzanie i wyÅ›wietlanie",
+    "zoom": {
+      "label": "PowiÄ™kszenie tekstu",
+      "defaultLabel": "PowiÄ™kszenie tekstu",
+      "defaultHint": "Dostosuj rozmiar tekstu stron internetowych YouTube."
+    },
+    "appearance": "WyglÄ…d",
+    "appearanceHint": "Pasek narzÄ™dzi, jÄ™zyk i motyw.",
+    "tools": "NarzÄ™dzia",
+    "toolsHint": "ZarzÄ…dzaj Å›rodowiskiem webview i innymi narzÄ™dziami.",
+    "transfer": "Import i eksport",
+    "transferHint": "Importuj zakÅ‚adki lub zabierz je ze sobÄ….",
+    "syncHintShort": "Konto, plan i synchronizacja urzÄ…dzeÅ„.",
+    "restoreOnStart": "PrzywrÃ³Ä‡ ostatniÄ… sesjÄ™ przy uruchomieniu",
+    "pullToRefresh": "PrzeciÄ…gnij, aby odÅ›wieÅ¼yÄ‡",
+    "proxy": {
+      "label": "Proxy",
+      "enabled": "WÅ‚Ä…cz proxy",
+      "type": "Typ proxy",
+      "host": "Host proxy",
+      "port": "Port proxy",
+      "hostPlaceholder": "np. 127.0.0.1 lub proxy.example.com",
+      "portPlaceholder": "np. 1080"
+    },
+    "autoHideHeader": "Ukryj i pokaÅ¼ pasek narzÄ™dzi w zaleÅ¼noÅ›ci od kierunku przewijania",
+    "autoHideSidebar": "Automatyczne ukrywanie paska bocznego i wyÅ›wietlanie po najechaniu kursorem",
+    "hideToolbarWhenScrolled": "Ukryj pasek narzÄ™dzi, gdy strona nie znajduje siÄ™ na gÃ³rze",
+    "toolbar": "Pasek narzÄ™dzi",
+    "headerPosition": {
+      "label": "Pozycja paska narzÄ™dzi",
+      "top": "GÃ³ra",
+      "bottom": "DÃ³Å‚"
+    },
+    "toolbarButtons": "Przyciski paska narzÄ™dzi",
+    "showHomeButtonInHeader": "PokaÅ¼ przycisk Home na pasku narzÄ™dzi",
+    "showBackButtonInHeader": "PokaÅ¼ przycisk Wstecz na pasku narzÄ™dzi",
+    "showForwardButtonInHeader": "PokaÅ¼ przycisk Dalej na pasku narzÄ™dzi",
+    "showReloadButtonInHeader": "PokaÅ¼ przycisk OdÅ›wieÅ¼ na pasku narzÄ™dzi",
+    "showHistoryButtonInHeader": "PokaÅ¼ przycisk Historia na pasku narzÄ™dzi",
+    "doubleTapToToggleHeader": "Kliknij dwukrotnie stronÄ™, aby ukryÄ‡ lub wyÅ›wietliÄ‡ pasek narzÄ™dzi",
+    "hideShorts": "Ukryj Shorts na osi czasu",
+    "hideShortsInNavbar": "Ukryj Shorts na pasku nawigacji",
+    "hideMixPlaylist": "Ukryj playlistÄ™ Miks",
+    "miniPlayer": "Mini odtwarzacz",
+    "preferH264": "Preferuj H.264 (blok VP9/AV1)",
+    "showDislikes": "PokaÅ¼ Å‚apki w dÃ³Å‚",
+    "showOriginalVideoTitle": "PokaÅ¼ oryginalny tytuÅ‚ filmu",
+    "clickbaitThumbnail": {
+      "label": "Unikaj clickbaitowych miniatur",
+      "hint": "ZastÄ…p miniatury twÃ³rcÃ³w automatycznie generowanymi klatkami wideo",
+      "optionDefault": "DomyÅ›lne",
+      "optionFrame": "Klatka {{n}}"
+    },
+    "blocklist": {
+      "label": "Lista zablokowanych",
+      "hint": "Ukrywaj filmy na YouTube wedÅ‚ug kanaÅ‚u lub sÅ‚owa kluczowego w tytule.",
+      "channels": "KanaÅ‚y",
+      "keywords": "SÅ‚owa kluczowe",
+      "channelPlaceholder": "Nazwa kanaÅ‚u, identyfikator lub URL",
+      "keywordPlaceholder": "SÅ‚owo kluczowe w tytule",
+      "emptyChannels": "Nie ma jeszcze zablokowanych kanaÅ‚Ã³w.",
+      "emptyKeywords": "Nie ma jeszcze zablokowanych sÅ‚Ã³w kluczowych.",
+      "add": "Dodaj",
+      "channelsNote": "KanaÅ‚y dopasowujÄ… siÄ™ dokÅ‚adnie wedÅ‚ug nazwy, identyfikatora lub identyfikatora kanaÅ‚u.",
+      "keywordsNote": "Wyszukiwanie sÅ‚Ã³w kluczowych poprzez uwzglÄ™dnienie (wyszukiwanie podciÄ…gÃ³w w tytuÅ‚ach)."
+    },
+    "userStyles": {
+      "label": "Style i skrypty uÅ¼ytkownika",
+      "hint": "WÅ‚asny, specyficzny dla witryny kod CSS i skrypty uÅ¼ytkownika.",
+      "builtin": {
+        "label": "Wbudowane style",
+        "hideShortsInNavbar": {
+          "label": "Ukryj Shorts w pasku nawigacyjnym"
+        },
+        "hideMixPlaylist": {
+          "label": "Ukryj playlistÄ™ Miks"
+        },
+        "hideCommunityPosts": {
+          "label": "Ukryj posty spoÅ‚ecznoÅ›ci"
+        },
+        "hideAskButton": {
+          "label": "Ukryj przycisk Zapytaj Gemini"
+        },
+        "hideHomeFeed": {
+          "label": "Ukryj stronÄ™ gÅ‚Ã³wnÄ…"
+        },
+        "hideRelatedVideos": {
+          "label": "Ukryj powiÄ…zane filmy"
+        },
+        "hideEndScreens": {
+          "label": "Ukryj ekrany koÅ„cowe"
+        }
+      },
+      "custom": {
+        "label": "Style niestandardowe",
+        "empty": "Nie ma jeszcze niestandardowych stylÃ³w."
+      },
+      "add": "Dodaj styl",
+      "addTitle": "Dodaj styl uÅ¼ytkownika",
+      "editTitle": "Edytuj styl uÅ¼ytkownika",
+      "nameLabel": "Nazwa",
+      "namePlaceholder": "MÃ³j styl",
+      "validation": {
+        "css": "CSS nie moÅ¼e byÄ‡ pusty"
+      },
+      "deleteConfirm": "UsunÄ…Ä‡ ten niestandardowy styl?",
+      "copyCss": "Kopiuj CSS",
+      "cssCopied": "CSS skopiowany",
+      "copyFailed": "Nie udaÅ‚o siÄ™ skopiowaÄ‡ CSS",
+      "importFailed": "Nie udaÅ‚o siÄ™ zaimportowaÄ‡ CSS",
+      "scripts": {
+        "label": "Skrypty niestandardowe",
+        "empty": "Na razie nie ma Å¼adnych niestandardowych skryptÃ³w.",
+        "add": "Dodaj skrypt",
+        "addTitle": "Dodaj skrypt uÅ¼ytkownika",
+        "editTitle": "Edytuj skrypt uÅ¼ytkownika",
+        "namePlaceholder": "MÃ³j skrypt",
+        "run": "Uruchom",
+        "runComplete": "Skrypt uruchomiony",
+        "runFailed": "Skrypt nie powiÃ³dÅ‚ siÄ™",
+        "import": "Importuj",
+        "importFailed": "Nie udaÅ‚o siÄ™ zaimportowaÄ‡ skryptu",
+        "pinToHeader": "Przypnij do paska narzÄ™dzi",
+        "pinToHeaderHint": "PokaÅ¼ ten skrypt jako akcjÄ™ na pasku narzÄ™dzi.",
+        "pinnedToHeader": "PrzypiÄ™te do paska narzÄ™dzi",
+        "deleteConfirm": "UsunÄ…Ä‡ ten niestandardowy skrypt?",
+        "noActiveTab": "Brak aktywnego widoku webview",
+        "validation": {
+          "js": "JavaScript nie moÅ¼e byÄ‡ pusty"
+        },
+        "runAtStart": "Uruchom na poczÄ…tku dokumentu",
+        "runAtStartHint": "Uruchamiaj przed utworzeniem DOM, zamiast po zdarzeniu DOMContentLoaded.",
+        "runAtStartDesktopHint": "Funkcja ta nie jest jeszcze dostÄ™pna na komputerach stacjonarnych; skrypty zostanÄ… uruchomione, gdy DOM bÄ™dzie gotowy.",
+        "runAtStartBadge": "Uruchamia siÄ™ na poczÄ…tku dokumentu"
+      },
+      "builtinScripts": {
+        "label": "Wbudowane skrypty",
+        "fixEncodedAuthorNames": {
+          "label": "Napraw znaki specjalne w nazwach autorÃ³w"
+        }
+      }
+    },
+    "channelsFeed": "Karty kanaÅ‚Ã³w",
+    "watchHistory": "Historia oglÄ…dania",
+    "theme": {
+      "label": "Motyw",
+      "system": "Systemowy",
+      "dark": "Ciemny",
+      "light": "Jasny",
+      "hint": "Dotyczy aplikacji i YouTube. Uruchom ponownie rÄ™cznie, jeÅ›li zmiany nie zostanÄ… wifoczne w widoku webview."
+    },
+    "language": {
+      "label": "JÄ™zyk",
+      "system": "Systemu",
+      "hint": "Wybierz jÄ™zyk lub uÅ¼yj jÄ™zyka sytemu."
+    },
+    "login": {
+      "label": "WyprÃ³buj to, jeÅ›li nie moÅ¼esz zalogowaÄ‡ siÄ™ z poziomu WebView",
+      "button": "Zaloguj siÄ™ do YouTube"
+    },
+    "openUrlLabel": "OtwÃ³rz obsÅ‚ugiwany adres URL bezpoÅ›rednio",
+    "webview": {
+      "clearLabel": "WyczyÅ›Ä‡ dane webview"
+    },
+    "userAgent": {
+      "title": "Niestandardowy user agent",
+      "default": "DomyÅ›lny user agent"
+    },
+    "importList": "Importuj listÄ™ linkÃ³w",
+    "importTakeout": "Importuj z YouTube takeout",
+    "exportLabel": "Eksportuj zakÅ‚adki do pliku CSV",
+    "injectCookie": "Wstrzyknij plik cookie, jeÅ›li nie moÅ¼na zalogowaÄ‡ siÄ™ przez webview",
+    "injectCookieTitle": "Wstrzyknij autoryzacyjny plik cookie do webview",
+    "injectCookieHint": "Skopiuj wartoÅ›Ä‡ nagÅ‚Ã³wka pliku cookie z przeglÄ…darki na komputerze. To obejÅ›cie problemu, gdy nie moÅ¼esz zalogowaÄ‡ siÄ™ za pomocÄ… adresu e-mail i hasÅ‚a.",
+    "translation": {
+      "enable": "TÅ‚umaczenie komentarzy",
+      "hint": "PokaÅ¼ przycisk tÅ‚umaczenia w komentarzach, aby przetÅ‚umaczyÄ‡ je na swoim urzÄ…dzeniu.",
+      "targetLanguage": "PrzetÅ‚umacz na",
+      "appLanguage": "Aplikacja",
+      "systemLanguage": "Systemu",
+      "notSelected": "Wybierz jÄ™zyk",
+      "chooseLanguage": "Najpierw wybierz jÄ™zyk tÅ‚umaczenia",
+      "loading": "TÅ‚umaczenieâ€¦",
+      "copy": "Kopiuj tÅ‚umaczenie",
+      "copySource": "Skopiuj ÅºrÃ³dÅ‚o",
+      "pin": "Przypnij tÅ‚umaczenie",
+      "unpin": "Odepnij tÅ‚umaczenie",
+      "failed": "Nie udaÅ‚o siÄ™ przetÅ‚umaczyÄ‡ tego tekstu",
+      "unsupported": "Ta para jÄ™zykowa jest niedostÄ™pna na tym urzÄ…dzeniu"
+    },
+    "replaceWatchNavigation": "Wstecz pomija obejrzane filmy",
+    "importSettings": "Ustawienia importu",
+    "importSettingsDescription": "Przywracanie ustawieÅ„ z pliku ustawieÅ„ MusicTube",
+    "importSettingsConfirm": "To zastÄ™puje Twoje obecne ustawienia, listÄ™ blokowanych, style uÅ¼ytkownika i niestandardowe skrypty. KontynuowaÄ‡?",
+    "importSettingsWithScriptsConfirm": "Ten plik zawiera {{count}} wÅ‚Ä…czony(ch) skrypt(Ã³w) uÅ¼ytkownika, ktÃ³re mogÄ… uruchamiaÄ‡ kod w serwisie YouTube. Kontynuuj tylko wtedy, gdy ufasz temu plikowi. Twoje obecne ustawienia, lista blokowanych, style uÅ¼ytkownika i niestandardowe skrypty zostanÄ… zastÄ…pione.",
+    "importSettingsDone": "Zaimportowano: {{sections}}",
+    "exportSettings": "Ustawienia eksportu",
+    "exportSettingsDescription": "Zapisz ustawienia, listÄ™ blokowanych, style uÅ¼ytkownika i niestandardowe skrypty jako plik JSON",
+    "preferencesDistractionFree": "Tryb skupienia",
+    "groupYouTube": "YouTube",
+    "groupMusicTube": "MusicTube",
+    "preferencesComments": "Komentarze",
+    "sidebar": "Pasek boczny",
+    "preferencesYouTubeHint": "Ustawienia YouTube",
+    "preferencesMusicTubeHint": "Ustawienia MusicTube",
+    "systemCaptionStyle": {
+      "label": "UÅ¼yj systemowego stylu napisÃ³w",
+      "hint": "Zastosuj kolor, tÅ‚o i rozmiar tekstu napisÃ³w Androida do napisÃ³w w serwisie YouTube.",
+      "openSystemSettings": "Ustawienia napisÃ³w systemowych"
+    },
+    "showSleepTimerButtonInHeader": "PokaÅ¼ przycisk wyÅ‚Ä…cznika czasowego na pasku narzÄ™dzi",
+    "showLibraryButtonInHeader": "PokaÅ¼ przycisk Biblioteki na pasku narzÄ™dzi",
+    "showStarButtonInHeader": "PokaÅ¼ przycisk z gwiazdkÄ… na pasku narzÄ™dzi",
+    "mediaNotificationButtons": "Przyciski powiadomieÅ„ multimedialnych",
+    "showMediaNotificationPrevButton": "PokaÅ¼ przycisk Poprzedni",
+    "showMediaNotificationNextButton": "PokaÅ¼ przycisk NastÄ™pny",
+    "showMediaNotificationRewindButton": "PokaÅ¼ przycisk PrzewiÅ„ do tyÅ‚u",
+    "showMediaNotificationForwardButton": "PokaÅ¼ przycisk PrzewiÅ„ do przodu",
+    "showMediaNotificationSpeedButton": "PokaÅ¼ przycisk PrÄ™dkoÅ›Ä‡ odtwarzania",
+    "showMediaNotificationCloseButton": "PokaÅ¼ przycisk Zamknij",
+    "mediaNotificationButtonsHint": "System Android wyÅ›wietla obok przycisku odtwarzania maksymalnie cztery z tych przyciskÃ³w w kolejnoÅ›ci podanej poniÅ¼ej. Liczba obecnie wÅ‚Ä…czonych przez Ciebie przyciskÃ³w: {{selected}}.",
+    "miniPlayerHint": "Opuszczenie strony z filmem sprawia, Å¼e jest on nadal odtwarzany w rogu strony.",
+    "pictureInPicture": "Obraz w obrazie",
+    "pictureInPictureHint": "Pozostaw odtwarzanie wideo w pÅ‚ywajÄ…cym oknie po wyjÅ›ciu z aplikacji.",
+    "blockAds": {
+      "label": "Blokuj reklamy",
+      "hint": "WyÅ‚Ä…cz, aby zezwoliÄ‡ na reklamy w YouTube i wspieraÄ‡ twÃ³rcÃ³w."
+    },
+    "dynamicColor": {
+      "label": "Dynamiczny kolor",
+      "hint": "UÅ¼yj systemowej palety kolorÃ³w."
+    }
+  },
+  "native": {
+    "format_bestQuality": "Najlepsza jakoÅ›Ä‡",
+    "format_bestQualityDesc": "Wideo + dÅºwiÄ™k do {{height}}p",
+    "format_1080pDesc": "Wideo + dÅºwiÄ™k 1080p",
+    "format_720pDesc": "Wideo + dÅºwiÄ™k 720p",
+    "format_audioOnly": "Tylko dÅºwiÄ™k",
+    "format_audio": "DÅºwiÄ™k ({{ext}})",
+    "format_audioStreamDesc": "Najlepszy strumieÅ„ audio",
+    "format_audioMp3Desc": "Najlepszy dÅºwiÄ™k transkodowany do formatu MP3",
+    "download_complete": "Pobieranie zakoÅ„czone",
+    "download_failed": "Pobieranie nie powiodÅ‚o siÄ™"
+  },
+  "sync": {
+    "label": "Synchronizacja",
+    "hint": "Synchronizuj zakÅ‚adki na telefonach i komputerach jako uÅ¼ytkownik premium.",
+    "currentPlan": "Aktualny plan",
+    "managePlan": "ZarzÄ…dzaj planem",
+    "freePlan": "Darmowy",
+    "deleteAccount": "UsuÅ„ konto",
+    "buy": "Subskrybuj przez App Store",
+    "restore": "PrzywrÃ³Ä‡ zakupy",
+    "manageIos": "ZarzÄ…dzaj w App Store",
+    "purchaseTitle": "PowiÄ…Å¼ subskrypcjÄ™",
+    "purchaseConfirm": "Ta subskrypcja zostanie powiÄ…zana z adresem {{email}} i odblokuje synchronizacjÄ™ wszÄ™dzie tam, gdzie zalogujesz siÄ™ na to konto MusicTube.",
+    "priceLoading": "Wczytywanie ceny z App Store...",
+    "purchasePending": "Zakup oczekuje na zatwierdzenie. Synchronizacja zostanie odblokowana po jego zatwierdzeniu.",
+    "productUnavailable": "Produkt w App Store nie jest jeszcze dostÄ™pny.",
+    "noPurchaseToRestore": "Nie znaleziono zakupÃ³w MusicTube Sync do przywrÃ³cenia.",
+    "activeViaIos": "Aktywne przez App Store",
+    "signOutSwitch": "Wyloguj siÄ™ i zmieÅ„ konto",
+    "expiresAt": "Odnowienie lub wygaÅ›niÄ™cie: {{value}}",
+    "legalNotice": "Subskrypcje odnawiajÄ… siÄ™ automatycznie, chyba Å¼e zostanÄ… anulowane. DokonujÄ…c subskrypcji, akceptujesz Warunki uÅ¼ytkowania (EULA) oraz PolitykÄ™ prywatnoÅ›ci.",
+    "termsOfUse": "Warunki uÅ¼ytkowania (EULA)",
+    "privacyPolicy": "Polityka prywatnoÅ›ci"
+  },
+  "bookmarks": {
+    "removed": "UsuniÄ™to zakÅ‚adkÄ™",
+    "moved": "Przeniesiono do {{folder}}",
+    "movedToRoot": "Przeniesiono z folderu"
+  },
+  "folders": {
+    "removed": "Folder {{name}} zostaÅ‚ usuniÄ™ty"
+  },
+  "pageLoadError": {
+    "title": "Nie moÅ¼na zaÅ‚adowaÄ‡ tej strony",
+    "description": "SprawdÅº poÅ‚Ä…czenie i sprÃ³buj ponownie."
+  },
+  "extension": {
+    "openOptions": "Lista blokowanych i style uÅ¼ytkownika",
+    "reloadTabs": "PrzeÅ‚aduj karty YouTube",
+    "applyHint": "NiektÃ³re opcje zacznÄ… dziaÅ‚aÄ‡ dopiero po odÅ›wieÅ¼eniu strony.",
+    "userScriptsUnavailable": "Skrypty uÅ¼ytkownika wymagajÄ… uprawnieÅ„ przeglÄ…darki. W Chrome otwÃ³rz stronÄ™ szczegÃ³Å‚Ã³w rozszerzenia i zezwÃ³l na skrypty uÅ¼ytkownika.",
+    "feeds": "KanaÅ‚y",
+    "library": "Biblioteka",
+    "signIn": "Logowanie",
+    "signedOut": "Niezalogowany",
+    "syncNow": "Synchronizuj teraz",
+    "refreshFeeds": "OdÅ›wieÅ¼ kanaÅ‚y",
+    "manageFeeds": "ZarzÄ…dzaj kanaÅ‚ami",
+    "account": "Konto i synchronizacja",
+    "more": "WiÄ™cej",
+    "openExpanded": "OtwÃ³rz w nowej karcie",
+    "openYouTube": "OtwÃ³rz YouTube",
+    "openYouTubeMusic": "OtwÃ³rz YouTube Music",
+    "saveCurrentPage": "Zapisz bieÅ¼Ä…cÄ… stronÄ™"
+  },
+  "history": {
+    "cleared": "Historia wyczyszczona"
+  }
+}

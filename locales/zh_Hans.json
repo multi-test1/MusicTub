@@ -1,0 +1,479 @@
+{
+  "about": {
+    "label": "å…³äºŽ",
+    "code": "æºä»£ç ",
+    "donate": "æèµ ",
+    "hint": "ç‰ˆæœ¬ä¿¡æ¯ã€æ›´æ–°ã€æºä»£ç å’Œæ”¯æŒé“¾æŽ¥ã€‚",
+    "updates": "æ›´æ–°"
+  },
+  "buttons": {
+    "clear": "æ¸…é™¤",
+    "import": "å¯¼å…¥",
+    "export": "å¯¼å‡º",
+    "open": "æ‰“å¼€",
+    "cancel": "å–æ¶ˆ",
+    "openUrl": "æ‰“å¼€ URL",
+    "move": "ç§»åŠ¨",
+    "save": "ä¿å­˜",
+    "signOut": "é€€å‡ºç™»å½•",
+    "remove": "ç§»é™¤",
+    "unsubscribe": "å–æ¶ˆè®¢é˜…",
+    "clearAll": "å…¨éƒ¨æ¸…é™¤",
+    "next": "ä¸‹ä¸€ä¸ª",
+    "show": "æ˜¾ç¤º",
+    "download": "ä¸‹è½½",
+    "browse": "æµè§ˆ",
+    "updateYtDlp": "æ›´æ–° yt-dlp",
+    "updating": "æ­£åœ¨æ›´æ–°â€¦",
+    "ytDlpUpdated": "yt-dlp å·²æ˜¯æœ€æ–°ç‰ˆæœ¬",
+    "undo": "æ’¤é”€",
+    "confirm": "ç¡®è®¤",
+    "retry": "é‡è¯•"
+  },
+  "library": {
+    "videos": "è§†é¢‘",
+    "channels": "é¢‘é“",
+    "playlists": "æ’­æ”¾åˆ—è¡¨",
+    "songs": "æ­Œæ›²",
+    "artists": "éŸ³ä¹äºº"
+  },
+  "menus": {
+    "edit": "ç¼–è¾‘",
+    "remove": "ç§»é™¤",
+    "reload": "é‡æ–°åŠ è½½",
+    "share": "åˆ†äº«",
+    "unsubscribe": "å–æ¶ˆè®¢é˜…",
+    "tools": "å·¥å…·",
+    "desktop": "æ¡Œé¢ç‰ˆç½‘ç«™",
+    "on": "å·²å¼€å¯",
+    "off": "å·²å…³é—­",
+    "pip": "ç”»ä¸­ç”»",
+    "openInNewTab": "åœ¨æ–°æ ‡ç­¾é¡µä¸­æ‰“å¼€",
+    "duplicateTab": "å¤åˆ¶æ ‡ç­¾é¡µ",
+    "close": "å…³é—­",
+    "moveTo": "ç§»åŠ¨åˆ°â€¦",
+    "star": "æ”¶è—",
+    "unstar": "å–æ¶ˆæ”¶è—",
+    "download": "ä¸‹è½½"
+  },
+  "modals": {
+    "editBookmark": "ç¼–è¾‘ä¹¦ç­¾",
+    "title": "æ ‡é¢˜",
+    "folder": "æ–‡ä»¶å¤¹",
+    "ungrouped": "æœªåˆ†ç»„",
+    "feeds": "è®¢é˜…æº",
+    "history": "åŽ†å²è®°å½•",
+    "queue": "å¾…æ’­åˆ—è¡¨",
+    "downloadVideo": "ä¸‹è½½è§†é¢‘",
+    "downloadsFolder": "ä¸‹è½½æ–‡ä»¶å¤¹",
+    "activeDownloads": "æ­£åœ¨ä¸‹è½½",
+    "starting": "æ­£åœ¨å¯åŠ¨â€¦",
+    "downloadComplete": "ä¸‹è½½å®Œæˆ",
+    "downloadFailed": "ä¸‹è½½å¤±è´¥",
+    "failedToLoadFormats": "æ— æ³•åŠ è½½æ ¼å¼",
+    "playbackSpeed": "æ’­æ”¾é€Ÿåº¦",
+    "downloadHistory": "ä¸‹è½½è®°å½•",
+    "playbackQuality": "æ’­æ”¾è´¨é‡",
+    "sharePageUrl": "é¡µé¢ URL",
+    "shareVideoUrl": "è§†é¢‘ URL",
+    "shareIncludePosition": "åŒ…å«å½“å‰ä½ç½®",
+    "downloadUseCookies": "ä½¿ç”¨æˆ‘çš„ Cookie",
+    "downloadUseCookiesHint": "è§‚çœ‹å¹´é¾„é™åˆ¶ã€ä»…é™ä¼šå‘˜æˆ–ç§å¯†è§†é¢‘éœ€è¦æ­¤åŠŸèƒ½ã€‚å¯èƒ½è®©æ‚¨ä¼šé€€å‡ºç™»å½• YouTubeï¼Œå¹¶ä¸”ä»¥è¿™ç§æ–¹å¼ä½¿ç”¨è´¦å·å­˜åœ¨è¢«æ ‡è®°çš„é£Žé™©ã€‚",
+    "noFolder": "æ— æ–‡ä»¶å¤¹",
+    "downloadErrorBlocked": "YouTube æ‹’ç»äº†æ­¤ä¸‹è½½ã€‚å®ƒéœ€è¦ä¸€ä¸ª yt-dlp å°šæ— æ³•ç”Ÿæˆçš„ä»¤ç‰Œï¼Œå› æ­¤æš‚æ—¶æ— æ³•ä¸‹è½½æ­¤è§†é¢‘ â€” å¤§å¤šæ•°å…¶ä»–è§†é¢‘ä»å¯æ­£å¸¸ä¸‹è½½ã€‚",
+    "downloadErrorSignIn": "YouTube è¦æ±‚å¯¹æ­¤è§†é¢‘ä¿æŒç™»å½•çŠ¶æ€ã€‚è¯·å¼€å¯â€œä½¿ç”¨æˆ‘çš„ Cookieâ€å¹¶é‡è¯•ã€‚",
+    "downloadErrorFormat": "è¯¥æ ¼å¼å·²ä¸å†å¯ç”¨ã€‚è¯·å†æ¬¡åŠ è½½æ ¼å¼å¹¶é€‰æ‹©å…¶ä»–æ ¼å¼ã€‚",
+    "downloadErrorUnavailable": "æ­¤è§†é¢‘ä¸å¯ç”¨ã€‚",
+    "downloadErrorNetwork": "æ— æ³•è®¿é—® YouTubeã€‚è¯·æ£€æŸ¥æ‚¨çš„è¿žæŽ¥å¹¶é‡è¯•ã€‚",
+    "showAllFormats": "æ˜¾ç¤ºæ‰€æœ‰æ ¼å¼",
+    "showFewerFormats": "æ˜¾ç¤ºè¾ƒå°‘æ ¼å¼",
+    "pinnedFormat": "å·²å›ºå®š",
+    "pinFormat": "å›ºå®šä¸ºé»˜è®¤æ ¼å¼",
+    "unpinFormat": "å–æ¶ˆå›ºå®šé»˜è®¤æ ¼å¼"
+  },
+  "settings": {
+    "label": "è®¾ç½®",
+    "general": "å¸¸è§„",
+    "restoreOnStart": "å¯åŠ¨æ—¶æ¢å¤ä¸Šæ¬¡ä¼šè¯",
+    "hideShorts": "åœ¨æ—¶é—´çº¿ä¸­éšè— Shorts çŸ­è§†é¢‘",
+    "channelsFeed": "é¢‘é“è®¢é˜…æº",
+    "watchHistory": "è§‚çœ‹è®°å½•",
+    "theme": {
+      "label": "ä¸»é¢˜",
+      "system": "ç³»ç»Ÿ",
+      "dark": "æ·±è‰²",
+      "light": "æµ…è‰²",
+      "hint": "åº”ç”¨äºŽåº”ç”¨å’Œ YouTubeã€‚å¦‚æžœæ›´æ”¹æœªåœ¨ WebView ä¸­ç”Ÿæ•ˆï¼Œè¯·æ‰‹åŠ¨é‡å¯ã€‚"
+    },
+    "login": {
+      "button": "ç™»å½• YouTube",
+      "label": "å¦‚æžœæ— æ³•é€šè¿‡ WebView ç™»å½•ï¼Œè¯·å°è¯•æ­¤æ“ä½œ"
+    },
+    "openUrlLabel": "ç›´æŽ¥æ‰“å¼€æ”¯æŒçš„ URL",
+    "webview": {
+      "clearLabel": "æ¸…é™¤ WebView æ•°æ®"
+    },
+    "importList": "å¯¼å…¥é“¾æŽ¥åˆ—è¡¨",
+    "importTakeout": "ä»Ž YouTube å¯¼å‡ºæ•°æ®å¯¼å…¥",
+    "exportLabel": "å°†ä¹¦ç­¾å¯¼å‡ºä¸º CSV æ–‡ä»¶",
+    "injectCookie": "å¦‚æžœæ— æ³•ä»Ž WebView ç™»å½•ï¼Œåˆ™æ³¨å…¥ Cookie",
+    "injectCookieTitle": "å°†è®¤è¯ Cookie æ³¨å…¥ WebView",
+    "injectCookieHint": "ä»Ž PC æµè§ˆå™¨å¤åˆ¶ Cookie æ ‡å¤´å€¼ã€‚è¿™æ˜¯å½“æ‚¨æ— æ³•ä½¿ç”¨é‚®ç®±/å¯†ç ç™»å½•æ—¶çš„ä¸´æ—¶è§£å†³åŠžæ³•ã€‚",
+    "userAgent": {
+      "title": "è‡ªå®šä¹‰ç”¨æˆ·ä»£ç†",
+      "default": "é»˜è®¤ç”¨æˆ·ä»£ç†"
+    },
+    "hubHint": "æ’­æ”¾ã€åŒæ­¥ã€å¯¼å…¥å’Œ WebView å·¥å…·é›†äºŽä¸€å¤„ã€‚",
+    "generalHint": "æ’­æ”¾é»˜è®¤è®¾ç½®ã€å¤–è§‚ã€å·¥å…·å’Œæ•°æ®ä¼ è¾“ã€‚",
+    "preferences": "åå¥½è®¾ç½®",
+    "preferencesHint": "æ’­æ”¾ã€è®¢é˜…æºå’ŒåŽ†å²è®°å½•çš„è¡Œä¸ºè®¾ç½®ã€‚",
+    "appearance": "å¤–è§‚",
+    "appearanceHint": "å·¥å…·æ ã€è¯­è¨€å’Œä¸»é¢˜ã€‚",
+    "tools": "å·¥å…·",
+    "toolsHint": "ç®¡ç† WebView çŽ¯å¢ƒåŠå…¶ä»–å·¥å…·ã€‚",
+    "transfer": "å¯¼å…¥å’Œå¯¼å‡º",
+    "transferHint": "å¯¼å…¥ä¹¦ç­¾æˆ–å¯¼å‡ºä¹¦ç­¾éšæ—¶ä½¿ç”¨ã€‚",
+    "syncHintShort": "è´¦å·ã€å¥—é¤å’Œè®¾å¤‡åŒæ­¥ã€‚",
+    "autoHideHeader": "éšæ»šåŠ¨æ–¹å‘éšè—å’Œæ˜¾ç¤ºå·¥å…·æ ",
+    "hideShortsInNavbar": "åœ¨å¯¼èˆªæ ä¸­éšè— Shorts çŸ­è§†é¢‘",
+    "hideMixPlaylist": "éšè—åˆè¾‘æ’­æ”¾åˆ—è¡¨",
+    "userStyles": {
+      "label": "ç”¨æˆ·æ ·å¼å’Œè„šæœ¬",
+      "hint": "æ‚¨è‡ªå·±çš„ç½‘ç«™ä¸“ç”¨ CSS å’Œç”¨æˆ·è„šæœ¬ã€‚",
+      "builtin": {
+        "label": "å†…ç½®æ ·å¼",
+        "hideShortsInNavbar": {
+          "label": "åœ¨å¯¼èˆªæ ä¸­éšè— Shorts çŸ­è§†é¢‘"
+        },
+        "hideMixPlaylist": {
+          "label": "éšè—åˆè¾‘æ’­æ”¾åˆ—è¡¨"
+        },
+        "hideCommunityPosts": {
+          "label": "éšè—ç¤¾åŒºå¸–å­"
+        },
+        "hideAskButton": {
+          "label": "éšè—è¯¢é—® Gemini æŒ‰é’®"
+        },
+        "hideHomeFeed": {
+          "label": "éšè—é¦–é¡µè®¢é˜…æº"
+        },
+        "hideRelatedVideos": {
+          "label": "éšè—ç›¸å…³è§†é¢‘"
+        },
+        "hideEndScreens": {
+          "label": "éšè—ç‰‡å°¾ç”»é¢"
+        }
+      },
+      "custom": {
+        "label": "è‡ªå®šä¹‰æ ·å¼",
+        "empty": "æš‚æ— è‡ªå®šä¹‰æ ·å¼ã€‚"
+      },
+      "add": "æ·»åŠ æ ·å¼",
+      "addTitle": "æ·»åŠ ç”¨æˆ·æ ·å¼",
+      "editTitle": "ç¼–è¾‘ç”¨æˆ·æ ·å¼",
+      "nameLabel": "åç§°",
+      "namePlaceholder": "æˆ‘çš„æ ·å¼",
+      "validation": {
+        "css": "CSS ä¸èƒ½ä¸ºç©º"
+      },
+      "deleteConfirm": "ç§»é™¤æ­¤è‡ªå®šä¹‰æ ·å¼ï¼Ÿ",
+      "copyCss": "å¤åˆ¶ CSS",
+      "cssCopied": "CSS å·²å¤åˆ¶",
+      "copyFailed": "æ— æ³•å¤åˆ¶ CSS",
+      "importFailed": "æ— æ³•å¯¼å…¥ CSS",
+      "scripts": {
+        "label": "è‡ªå®šä¹‰è„šæœ¬",
+        "empty": "å°šæ— è‡ªå®šä¹‰è„šæœ¬ã€‚",
+        "add": "æ·»åŠ è„šæœ¬",
+        "addTitle": "æ·»åŠ ç”¨æˆ·è„šæœ¬",
+        "editTitle": "ç¼–è¾‘ç”¨æˆ·è„šæœ¬",
+        "namePlaceholder": "æˆ‘çš„è„šæœ¬",
+        "run": "è¿è¡Œ",
+        "runComplete": "è„šæœ¬å·²è¿è¡Œ",
+        "runFailed": "è„šæœ¬è¿è¡Œå¤±è´¥",
+        "import": "å¯¼å…¥",
+        "importFailed": "æ— æ³•å¯¼å…¥è„šæœ¬",
+        "deleteConfirm": "ç§»é™¤æ­¤è‡ªå®šä¹‰è„šæœ¬ï¼Ÿ",
+        "noActiveTab": "æ— æ´»åŠ¨ WebView",
+        "validation": {
+          "js": "JavaScript ä¸èƒ½ä¸ºç©º"
+        },
+        "pinToHeader": "å›ºå®šåˆ°å·¥å…·æ ",
+        "pinToHeaderHint": "å°†æ­¤è„šæœ¬æ˜¾ç¤ºä¸ºå·¥å…·æ æ“ä½œã€‚",
+        "pinnedToHeader": "å·²å›ºå®šåˆ°å·¥å…·æ ",
+        "runAtStart": "æ–‡æ¡£å¯åŠ¨æ—¶è¿è¡Œ",
+        "runAtStartHint": "åœ¨ DOM æž„å»ºä¹‹å‰è¿è¡Œï¼Œè€Œä¸æ˜¯åœ¨ DOM å†…å®¹åŠ è½½å®ŒæˆåŽè¿è¡Œã€‚",
+        "runAtStartDesktopHint": "æ¡Œé¢ç‰ˆå°šä¸å¯ç”¨ï¼›è„šæœ¬ä¼šåœ¨ DOM å‡†å¤‡å°±ç»ªåŽè¿è¡Œã€‚",
+        "runAtStartBadge": "æ–‡æ¡£å¯åŠ¨æ—¶è¿è¡Œ"
+      },
+      "builtinScripts": {
+        "label": "å†…ç½®è„šæœ¬",
+        "fixEncodedAuthorNames": {
+          "label": "ä¿®å¤ä½œè€…åç§°ä¸­çš„ç‰¹æ®Šå­—ç¬¦"
+        }
+      }
+    },
+    "hideToolbarWhenScrolled": "é¡µé¢ä¸åœ¨é¡¶éƒ¨æ—¶éšè—å·¥å…·æ ",
+    "language": {
+      "hint": "é€‰æ‹©ä¸€ç§è¯­è¨€æˆ–ä½¿ç”¨ç³»ç»Ÿè¯­è¨€ã€‚",
+      "label": "è¯­è¨€",
+      "system": "ç³»ç»Ÿ"
+    },
+    "miniPlayer": "è¿·ä½ æ’­æ”¾å™¨",
+    "preferH264": "ä¼˜å…ˆä½¿ç”¨ H.264ï¼ˆé˜»æ­¢ VP9/AV1ï¼‰",
+    "clickbaitThumbnail": {
+      "label": "é¿å…ä½¿ç”¨è¯±å¯¼æ€§ç¼©ç•¥å›¾",
+      "hint": "ç”¨è‡ªåŠ¨ç”Ÿæˆçš„è§†é¢‘å¸§æ›¿æ¢åˆ›ä½œè€…çš„ç¼©ç•¥å›¾",
+      "optionDefault": "é»˜è®¤",
+      "optionFrame": "ç¬¬ {{n}} å¸§"
+    },
+    "headerPosition": {
+      "label": "å·¥å…·æ ä½ç½®",
+      "top": "é¡¶éƒ¨",
+      "bottom": "åº•éƒ¨"
+    },
+    "showHomeButtonInHeader": "åœ¨å·¥å…·æ ä¸­æ˜¾ç¤ºâ€œé¦–é¡µâ€æŒ‰é’®",
+    "showBackButtonInHeader": "åœ¨å·¥å…·æ ä¸­æ˜¾ç¤ºâ€œåŽé€€â€æŒ‰é’®",
+    "showForwardButtonInHeader": "åœ¨å·¥å…·æ ä¸­æ˜¾ç¤ºâ€œå‰è¿›â€æŒ‰é’®",
+    "blocklist": {
+      "label": "å±è”½åˆ—è¡¨",
+      "hint": "æŒ‰é¢‘é“æˆ–æ ‡é¢˜å…³é”®è¯éšè— YouTube è§†é¢‘ã€‚",
+      "channels": "é¢‘é“",
+      "keywords": "å…³é”®è¯",
+      "channelPlaceholder": "é¢‘é“åç§°ã€æ ‡è¯†åæˆ– URL",
+      "keywordPlaceholder": "æ ‡é¢˜å…³é”®è¯",
+      "emptyChannels": "å°šæ— å·²å±è”½çš„é¢‘é“ã€‚",
+      "emptyKeywords": "å°šæ— å·²å±è”½çš„å…³é”®è¯ã€‚",
+      "add": "æ·»åŠ ",
+      "channelsNote": "é¢‘é“éœ€ä¸Žåç§°ã€æ ‡è¯†åæˆ–é¢‘é“ ID å®Œå…¨åŒ¹é…ã€‚",
+      "keywordsNote": "å…³é”®è¯é€šè¿‡åŒ…å«åŒ¹é…ï¼ˆåœ¨æ ‡é¢˜ä¸­è¿›è¡Œå­å­—ç¬¦ä¸²æœç´¢ï¼‰ã€‚"
+    },
+    "autoHideSidebar": "è‡ªåŠ¨éšè—ä¾§è¾¹æ ï¼Œæ‚¬åœæ—¶æ˜¾ç¤º",
+    "showDislikes": "æ˜¾ç¤ºâ€œä¸å–œæ¬¢â€",
+    "showOriginalVideoTitle": "æ˜¾ç¤ºåŽŸå§‹è§†é¢‘æ ‡é¢˜",
+    "pullToRefresh": "ä¸‹æ‹‰åˆ·æ–°",
+    "showReloadButtonInHeader": "åœ¨å·¥å…·æ ä¸­æ˜¾ç¤ºâ€œé‡æ–°åŠ è½½â€æŒ‰é’®",
+    "preferencesContent": "å†…å®¹",
+    "preferencesPlayback": "æ’­æ”¾å’Œæ˜¾ç¤º",
+    "preferencesGeneral": "å¸¸è§„",
+    "zoom": {
+      "label": "æ–‡æœ¬ç¼©æ”¾",
+      "defaultLabel": "æ–‡æœ¬ç¼©æ”¾",
+      "defaultHint": "è°ƒæ•´ YouTube ç½‘é¡µçš„æ–‡æœ¬å¤§å°ã€‚"
+    },
+    "proxy": {
+      "label": "ä»£ç†",
+      "enabled": "å¯ç”¨ä»£ç†",
+      "type": "ä»£ç†ç±»åž‹",
+      "host": "ä»£ç†ä¸»æœº",
+      "port": "ä»£ç†ç«¯å£",
+      "hostPlaceholder": "ä¾‹å¦‚ï¼š127.0.0.1 æˆ– proxy.example.com",
+      "portPlaceholder": "ä¾‹å¦‚ï¼š1080"
+    },
+    "toolbar": "å·¥å…·æ ",
+    "toolbarButtons": "å·¥å…·æ æŒ‰é’®",
+    "showHistoryButtonInHeader": "åœ¨å·¥å…·æ ä¸­æ˜¾ç¤ºâ€œåŽ†å²è®°å½•â€æŒ‰é’®",
+    "doubleTapToToggleHeader": "ç‚¹æŒ‰ä¸¤æ¬¡é¡µé¢å³å¯éšè—æˆ–æ˜¾ç¤ºå·¥å…·æ ",
+    "translation": {
+      "enable": "ç¿»è¯‘è¯„è®º",
+      "hint": "åœ¨è¯„è®ºä¸Šæ˜¾ç¤ºç¿»è¯‘æŒ‰é’®ï¼Œä»¥ä¾¿åœ¨æ‚¨çš„è®¾å¤‡ä¸Šç¿»è¯‘è¯„è®ºã€‚",
+      "targetLanguage": "ç¿»è¯‘ä¸º",
+      "appLanguage": "åº”ç”¨",
+      "systemLanguage": "ç³»ç»Ÿ",
+      "notSelected": "é€‰æ‹©è¯­è¨€",
+      "chooseLanguage": "è¯·å…ˆé€‰æ‹©ç¿»è¯‘è¯­è¨€",
+      "loading": "æ­£åœ¨ç¿»è¯‘â€¦",
+      "copy": "å¤åˆ¶ç¿»è¯‘",
+      "copySource": "å¤åˆ¶åŽŸæ–‡",
+      "pin": "å›ºå®šç¿»è¯‘",
+      "unpin": "å–æ¶ˆå›ºå®šç¿»è¯‘",
+      "failed": "æ— æ³•ç¿»è¯‘æ­¤æ–‡æœ¬",
+      "unsupported": "æ­¤è®¾å¤‡ä¸Šä¸æ”¯æŒæ­¤è¯­è¨€å¯¹"
+    },
+    "replaceWatchNavigation": "è¿”å›žè·³è¿‡å·²è§‚çœ‹çš„è§†é¢‘",
+    "importSettings": "å¯¼å…¥è®¾ç½®",
+    "importSettingsDescription": "ä»Ž MusicTube è®¾ç½®æ–‡ä»¶æ¢å¤è®¾ç½®",
+    "importSettingsConfirm": "è¿™å°†æ›¿æ¢æ‚¨å½“å‰çš„è®¾ç½®ã€å±è”½åˆ—è¡¨ã€ç”¨æˆ·æ ·å¼å’Œè‡ªå®šä¹‰è„šæœ¬ã€‚ç»§ç»­ï¼Ÿ",
+    "importSettingsWithScriptsConfirm": "æ­¤æ–‡ä»¶åŒ…å« {{count}} ä¸ªå·²å¯ç”¨çš„è‡ªå®šä¹‰è„šæœ¬ï¼Œè¿™äº›è„šæœ¬å¯ä»¥åœ¨ YouTube å†…è¿è¡Œä»£ç ã€‚è¯·ä»…åœ¨æ‚¨ä¿¡ä»»æ­¤æ–‡ä»¶æ—¶ç»§ç»­æ“ä½œã€‚æ‚¨å½“å‰çš„è®¾ç½®ã€å±è”½åˆ—è¡¨ã€ç”¨æˆ·æ ·å¼å’Œè‡ªå®šä¹‰è„šæœ¬å°†è¢«æ›¿æ¢ã€‚",
+    "importSettingsDone": "å·²å¯¼å…¥ï¼š{{sections}}",
+    "exportSettings": "å¯¼å‡ºè®¾ç½®",
+    "exportSettingsDescription": "å°†è®¾ç½®ã€å±è”½åˆ—è¡¨ã€ç”¨æˆ·æ ·å¼å’Œè‡ªå®šä¹‰è„šæœ¬ä¿å­˜ä¸º JSON æ–‡ä»¶",
+    "preferencesDistractionFree": "æ— å¹²æ‰°æ¨¡å¼",
+    "systemCaptionStyle": {
+      "label": "ä½¿ç”¨ç³»ç»Ÿå­—å¹•æ ·å¼",
+      "hint": "å°† Android çš„å­—å¹•é¢œè‰²ã€èƒŒæ™¯å’Œæ–‡æœ¬å¤§å°åº”ç”¨äºŽ YouTube å­—å¹•ã€‚",
+      "openSystemSettings": "ç³»ç»Ÿå­—å¹•è®¾ç½®"
+    },
+    "groupYouTube": "YouTube",
+    "groupMusicTube": "MusicTube",
+    "preferencesComments": "è¯„è®º",
+    "sidebar": "ä¾§è¾¹æ ",
+    "preferencesYouTubeHint": "YouTube åå¥½è®¾ç½®",
+    "preferencesMusicTubeHint": "MusicTube åå¥½è®¾ç½®",
+    "showSleepTimerButtonInHeader": "åœ¨å·¥å…·æ ä¸­æ˜¾ç¤ºâ€œç¡çœ å®šæ—¶å™¨â€æŒ‰é’®",
+    "showLibraryButtonInHeader": "åœ¨å·¥å…·æ ä¸­æ˜¾ç¤ºâ€œåª’ä½“åº“â€æŒ‰é’®",
+    "showStarButtonInHeader": "åœ¨å·¥å…·æ ä¸­æ˜¾ç¤ºâ€œæ”¶è—â€æŒ‰é’®",
+    "mediaNotificationButtons": "åª’ä½“é€šçŸ¥æŒ‰é’®",
+    "showMediaNotificationPrevButton": "æ˜¾ç¤ºâ€œä¸Šä¸€é¦–â€æŒ‰é’®",
+    "showMediaNotificationNextButton": "æ˜¾ç¤ºâ€œä¸‹ä¸€é¦–â€æŒ‰é’®",
+    "showMediaNotificationRewindButton": "æ˜¾ç¤ºâ€œå¿«é€€â€æŒ‰é’®",
+    "showMediaNotificationForwardButton": "æ˜¾ç¤ºâ€œå¿«è¿›â€æŒ‰é’®",
+    "showMediaNotificationSpeedButton": "æ˜¾ç¤ºâ€œæ’­æ”¾é€Ÿåº¦â€æŒ‰é’®",
+    "showMediaNotificationCloseButton": "æ˜¾ç¤ºâ€œå…³é—­â€æŒ‰é’®",
+    "mediaNotificationButtonsHint": "Android ç³»ç»Ÿä¼šåœ¨æ’­æ”¾æŒ‰é’®æ—è¾¹æœ€å¤šæ˜¾ç¤ºå…¶ä¸­å››ä¸ªæŒ‰é’®ï¼Œé¡ºåºæŒ‰æ­¤å¤„æ‰€åˆ—ã€‚æ‚¨å·²å¼€å¯ {{selected}}ã€‚",
+    "miniPlayerHint": "ç¦»å¼€è§†é¢‘é¡µé¢æ—¶ï¼Œè§†é¢‘å°†ç»§ç»­åœ¨é¡µé¢è§’è½æ’­æ”¾ã€‚",
+    "pictureInPicture": "ç”»ä¸­ç”»",
+    "pictureInPictureHint": "ç¦»å¼€åº”ç”¨æ—¶ï¼Œè§†é¢‘å°†ç»§ç»­åœ¨æµ®åŠ¨çª—å£ä¸­æ’­æ”¾ã€‚",
+    "blockAds": {
+      "label": "æ‹¦æˆªå¹¿å‘Š",
+      "hint": "å…³é—­æ­¤åŠŸèƒ½ä»¥å…è®¸æ˜¾ç¤º YouTube å¹¿å‘Šå¹¶æ”¯æŒåˆ›ä½œè€…ã€‚"
+    },
+    "dynamicColor": {
+      "label": "åŠ¨æ€é…è‰²",
+      "hint": "ä½¿ç”¨æ‚¨çš„ç³»ç»Ÿè°ƒè‰²æ¿ã€‚"
+    }
+  },
+  "sync": {
+    "label": "åŒæ­¥",
+    "hint": "é«˜çº§ç”¨æˆ·å¯åœ¨æ‰‹æœºå’Œç”µè„‘ä¹‹é—´åŒæ­¥ä¹¦ç­¾ã€‚",
+    "currentPlan": "å½“å‰å¥—é¤",
+    "managePlan": "ç®¡ç†å¥—é¤",
+    "freePlan": "å…è´¹",
+    "deleteAccount": "åˆ é™¤è´¦å·",
+    "buy": "é€šè¿‡ App Store è®¢é˜…",
+    "restore": "æ¢å¤è´­ä¹°",
+    "manageIos": "åœ¨ App Store ä¸­ç®¡ç†",
+    "purchaseTitle": "ç»‘å®šè®¢é˜…",
+    "purchaseConfirm": "æ­¤è®¢é˜…å°†ä¸Ž {{email}} å…³è”ï¼Œå¹¶åœ¨æ‚¨ç™»å½•æ­¤ MusicTube è´¦å·çš„ä»»ä½•ä½ç½®è§£é”åŒæ­¥åŠŸèƒ½ã€‚",
+    "priceLoading": "æ­£åœ¨åŠ è½½ App Store ä»·æ ¼â€¦",
+    "purchasePending": "è´­ä¹°å¾…æ‰¹å‡†ã€‚æ‰¹å‡†åŽå°†è§£é”åŒæ­¥åŠŸèƒ½ã€‚",
+    "productUnavailable": "è¯¥ App Store å•†å“æš‚ä¸å¯ç”¨ã€‚",
+    "noPurchaseToRestore": "æœªæ‰¾åˆ°å¯æ¢å¤çš„ MusicTube Sync è´­ä¹°è®°å½•ã€‚",
+    "activeViaIos": "é€šè¿‡ App Store æ¿€æ´»",
+    "signOutSwitch": "é€€å‡ºç™»å½•å¹¶åˆ‡æ¢è´¦å·",
+    "expiresAt": "ç»­è®¢æˆ–åˆ°æœŸæ—¶é—´ï¼š{{value}}",
+    "legalNotice": "é™¤éžå–æ¶ˆï¼Œå¦åˆ™è®¢é˜…å°†è‡ªåŠ¨ç»­è®¢ã€‚è®¢é˜…å³è¡¨ç¤ºæ‚¨åŒæ„ã€Šä½¿ç”¨æ¡æ¬¾ã€‹ï¼ˆæœ€ç»ˆç”¨æˆ·è®¸å¯åè®®ï¼‰å’Œã€Šéšç§æ”¿ç­–ã€‹ã€‚",
+    "termsOfUse": "ä½¿ç”¨æ¡æ¬¾ï¼ˆæœ€ç»ˆç”¨æˆ·è®¸å¯åè®®ï¼‰",
+    "privacyPolicy": "éšç§æ”¿ç­–"
+  },
+  "feeds": {
+    "updates": "æ›´æ–°",
+    "manage": "ç®¡ç†",
+    "sortLastVideo": "æœ€åŽè§†é¢‘",
+    "sortFrequency": "é¢‘çŽ‡",
+    "lastVideoNewest": "æœ€åŽè§†é¢‘ï¼šä»Žæ–°åˆ°æ—§",
+    "lastVideoOldest": "æœ€åŽè§†é¢‘ï¼šä»Žæ—§åˆ°æ–°",
+    "frequencyHighest": "é¢‘çŽ‡ï¼šä»Žé«˜åˆ°ä½Ž",
+    "frequencyLowest": "é¢‘çŽ‡ï¼šä»Žä½Žåˆ°é«˜",
+    "frequencyLabel": "é¢‘çŽ‡",
+    "lastVideoLabel": "æœ€åŽè§†é¢‘",
+    "videosPerDay": "{{value}} ä¸ªè§†é¢‘/å¤©",
+    "never": "ä»Žä¸",
+    "allFolders": "å…¨éƒ¨",
+    "newFolder": "+ æ–°æ–‡ä»¶å¤¹",
+    "editFeed": "ç¼–è¾‘è®¢é˜…æº",
+    "manageEmpty": "å°šæœªä¿å­˜ä»»ä½•è®¢é˜…æºã€‚",
+    "manageNoResults": "æ²¡æœ‰ç¬¦åˆå½“å‰ç­›é€‰æ¡ä»¶çš„è®¢é˜…æºã€‚",
+    "updatesEmpty": "æ²¡æœ‰ç¬¦åˆå½“å‰æ–‡ä»¶å¤¹ç­›é€‰æ¡ä»¶çš„è®¢é˜…æºè§†é¢‘ã€‚",
+    "filterDropdownPlaceholder": "ç­›é€‰æ–‡ä»¶å¤¹å’Œé¢‘é“",
+    "filterDropdownEmpty": "æ— åŒ¹é…çš„æ–‡ä»¶å¤¹æˆ–é¢‘é“ã€‚",
+    "emptyTitleNoChannels": "æ— æ”¶è—çš„é¢‘é“",
+    "emptyBodyNoChannels": "æ”¶è—çš„ YouTube é¢‘é“çš„æ›´æ–°å°†æ˜¾ç¤ºåœ¨æ­¤å¤„ã€‚",
+    "emptyTitleFolder": "{{folder}} ä¸­æ— æ›´æ–°",
+    "emptyTitleChannel": "{{channel}} æ— æ›´æ–°",
+    "emptyBodyFiltered": "å½“å‰æ— è¿‘æœŸè§†é¢‘ã€‚è¯·ç¨åŽæŸ¥çœ‹æˆ–åˆ‡æ¢åˆ°å…¨éƒ¨ã€‚",
+    "emptyActionFetchNow": "ç«‹å³èŽ·å–",
+    "fetchToastSuccess": "è®¢é˜…æºå·²åˆ·æ–°",
+    "fetchToastRunning": "åˆ·æ–°å·²åœ¨è¿›è¡Œä¸­",
+    "fetchToastNotFound": "æ— æ³•åˆ·æ–°æ­¤é¢‘é“ã€‚è®¢é˜…æºè¿”å›ž 404 é”™è¯¯ã€‚",
+    "fetchToastError": "æ— æ³•åˆ·æ–°æ­¤é¢‘é“",
+    "emptyActionAllFolders": "å…¨éƒ¨æ˜¾ç¤º",
+    "emptyTitleWaiting": "ç­‰å¾…è®¢é˜…æºæ›´æ–°",
+    "emptyBodyWaiting": "æ‚¨ä¿å­˜çš„é¢‘é“å·²å‡†å¤‡å°±ç»ªã€‚è¯·ä¿æŒåº”ç”¨æ‰“å¼€ç‰‡åˆ»æˆ–ç¨åŽé‡æ–°æ‰“å¼€ï¼Œè¿‘æœŸä¸Šä¼ å†…å®¹å°†æ˜¾ç¤ºåœ¨æ­¤å¤„ã€‚",
+    "removeTitle": "ç§»é™¤ {{title}}ï¼Ÿ",
+    "removeMessage": "è¿™å°†ä»Žåª’ä½“åº“ä¸­ç§»é™¤è¯¥é¢‘é“å¹¶æ¸…é™¤å…¶è®¢é˜…æºè§†é¢‘ã€‚"
+  },
+  "changelog": {
+    "label": "æ›´æ–°æ—¥å¿—",
+    "hint": "GitHub ä¸Šçš„æœ€æ–°ç‰ˆæœ¬å’Œä¿®å¤ã€‚",
+    "loading": "æ­£åœ¨åŠ è½½å‘è¡Œè¯´æ˜Žâ€¦",
+    "error": "æ— æ³•åŠ è½½å‘è¡Œè¯´æ˜Žã€‚",
+    "retry": "é‡è¯•",
+    "empty": "æœªæ‰¾åˆ°å‘è¡Œè¯´æ˜Žã€‚",
+    "current": "å½“å‰",
+    "noNotes": "æ­¤ç‰ˆæœ¬æœªæä¾›å‘è¡Œè¯´æ˜Žã€‚"
+  },
+  "sleepTimer": {
+    "label": "ç¡çœ å®šæ—¶å™¨",
+    "hint": "åœ¨é¢„è®¾æ—¶é•¿æˆ–æ‚¨è‡ªå®šä¹‰çš„åˆ†é’Ÿæ•°åŽæš‚åœæ’­æ”¾ã€‚",
+    "activeHint": "å€’è®¡æ—¶ç»“æŸåŽå°†æš‚åœæ’­æ”¾ã€‚",
+    "off": "å·²å…³é—­",
+    "endsIn": "{{value}} åŽç»“æŸ",
+    "preset": "{{value}} åˆ†é’Ÿ",
+    "customPlaceholder": "è‡ªå®šä¹‰åˆ†é’Ÿæ•°",
+    "set": "è®¾ç½®å®šæ—¶å™¨",
+    "cancel": "å–æ¶ˆå®šæ—¶å™¨",
+    "replace": "æ›¿æ¢",
+    "validation": {
+      "minutes": "è¯·è¾“å…¥ 1 åˆ° 1440 ä¹‹é—´çš„æ•´æ•°åˆ†é’Ÿæ•°"
+    },
+    "setToast": "ç¡çœ å®šæ—¶å™¨å·²è®¾ç½®ä¸º {{value}} åˆ†é’Ÿ",
+    "cancelToast": "ç¡çœ å®šæ—¶å™¨å·²å–æ¶ˆ",
+    "expiredToast": "ç¡çœ å®šæ—¶å™¨å·²åˆ°æœŸ"
+  },
+  "native": {
+    "format_bestQuality": "æœ€ä½³è´¨é‡",
+    "format_bestQualityDesc": "æœ€é«˜ {{height}}p è§†é¢‘ + éŸ³é¢‘",
+    "format_1080pDesc": "1080p è§†é¢‘ + éŸ³é¢‘",
+    "format_720pDesc": "720p è§†é¢‘ + éŸ³é¢‘",
+    "format_audioOnly": "ä»…éŸ³é¢‘",
+    "format_audio": "éŸ³é¢‘ï¼ˆ{{ext}}ï¼‰",
+    "format_audioStreamDesc": "æœ€ä½³éŸ³é¢‘æµ",
+    "format_audioMp3Desc": "æœ€ä½³éŸ³é¢‘è½¬ç ä¸º MP3",
+    "download_complete": "ä¸‹è½½å®Œæˆ",
+    "download_failed": "ä¸‹è½½å¤±è´¥"
+  },
+  "update": {
+    "check": "æ£€æŸ¥æ›´æ–°",
+    "checkHint": "æŸ¥çœ‹æ˜¯å¦æœ‰æ–°ç‰ˆæœ¬å¯ç”¨",
+    "upToDate": "æ‚¨å½“å‰ä½¿ç”¨çš„æ˜¯æœ€æ–°ç‰ˆæœ¬",
+    "downloading": "æ­£åœ¨ä¸‹è½½æ›´æ–° v{{version}}â€¦",
+    "error": "æ— æ³•æ£€æŸ¥æ›´æ–°",
+    "downloadedTitle": "æ›´æ–°å·²å‡†å¤‡å°±ç»ª",
+    "downloadedHint": "ç‰ˆæœ¬ {{version}} å·²ä¸‹è½½ã€‚ç«‹å³é‡å¯ä»¥å®‰è£…ï¼Ÿ"
+  },
+  "bookmarks": {
+    "removed": "ä¹¦ç­¾å·²ç§»é™¤",
+    "moved": "å·²ç§»åŠ¨åˆ° {{folder}}",
+    "movedToRoot": "å·²ç§»å‡ºæ–‡ä»¶å¤¹"
+  },
+  "folders": {
+    "removed": "æ–‡ä»¶å¤¹ {{name}} å·²ç§»é™¤"
+  },
+  "history": {
+    "cleared": "åŽ†å²è®°å½•å·²æ¸…é™¤"
+  },
+  "pageLoadError": {
+    "title": "æ— æ³•åŠ è½½æ­¤é¡µé¢",
+    "description": "è¯·æ£€æŸ¥æ‚¨çš„è¿žæŽ¥ï¼Œç„¶åŽé‡è¯•ã€‚"
+  },
+  "extension": {
+    "openOptions": "å±è”½åˆ—è¡¨å’Œç”¨æˆ·æ ·å¼",
+    "reloadTabs": "é‡æ–°åŠ è½½ YouTube æ ‡ç­¾é¡µ",
+    "applyHint": "éƒ¨åˆ†é€‰é¡¹ä»…åœ¨ä¸‹æ¬¡é¡µé¢åŠ è½½æ—¶ç”Ÿæ•ˆã€‚",
+    "userScriptsUnavailable": "ç”¨æˆ·è„šæœ¬éœ€è¦æµè§ˆå™¨çš„ç”¨æˆ·è„šæœ¬æƒé™ã€‚åœ¨ Chrome ä¸­ï¼Œæ‰“å¼€æ‰©å±•è¯¦æƒ…é¡µé¢å¹¶å…è®¸ç”¨æˆ·è„šæœ¬ã€‚",
+    "feeds": "è®¢é˜…æº",
+    "library": "åª’ä½“åº“",
+    "signIn": "ç™»å½•",
+    "signedOut": "æœªç™»å½•",
+    "syncNow": "ç«‹å³åŒæ­¥",
+    "refreshFeeds": "åˆ·æ–°è®¢é˜…æº",
+    "manageFeeds": "ç®¡ç†è®¢é˜…æº",
+    "account": "è´¦å·å’ŒåŒæ­¥",
+    "more": "æ›´å¤š",
+    "openExpanded": "åœ¨æ–°æ ‡ç­¾é¡µä¸­æ‰“å¼€",
+    "openYouTube": "æ‰“å¼€ YouTube",
+    "openYouTubeMusic": "æ‰“å¼€ YouTube Music",
+    "saveCurrentPage": "ä¿å­˜å½“å‰é¡µé¢"
+  }
+}
