@@ -2,12 +2,14 @@ package expo.modules.noutubeview
 
 import android.content.ContentValues
 import android.content.Context
+import android.content.Intent
 import android.net.Uri
 import android.os.Environment
 import android.provider.MediaStore
 import android.util.Log
 import android.webkit.CookieManager
 import android.webkit.MimeTypeMap
+import androidx.documentfile.provider.DocumentFile
 import com.yausername.ffmpeg.FFmpeg
 import com.yausername.youtubedl_android.YoutubeDL
 import com.yausername.youtubedl_android.YoutubeDLRequest
@@ -330,7 +332,7 @@ internal class NouYtDlp(private val context: Context) {
         ?.filter { it.isFile }
         ?.maxByOrNull { it.lastModified() }
         ?: throw Exception("Download completed but no output file was produced")
-      val savedUri = publishToDownloads(outputFile)
+      val savedUri = publishToDownloads(outputFile, outputDir)
 
       return DownloadResult(
         lastLine = lastLine,
@@ -451,19 +453,57 @@ internal class NouYtDlp(private val context: Context) {
     }
   }
 
-  private fun publishToDownloads(sourceFile: File): Uri {
+  private fun publishToDownloads(sourceFile: File, outputDir: String): Uri {
     val extension = sourceFile.extension.lowercase()
     val mimeType = MimeTypeMap.getSingleton().getMimeTypeFromExtension(extension).orEmpty()
+    val resolver = context.contentResolver
+
+    // If outputDir is a content:// URI (selected via Storage Access Framework
+    // folder picker), copy the file directly into that DocumentFile tree.
+    if (outputDir.startsWith("content://")) {
+      try {
+        val treeUri = Uri.parse(outputDir)
+        // Take persistable permission so the URI stays valid across app restarts.
+        try {
+          resolver.takePersistableUriPermission(
+            treeUri,
+            Intent.FLAG_GRANT_READ_URI_PERMISSION or Intent.FLAG_GRANT_WRITE_URI_PERMISSION,
+          )
+        } catch (_: SecurityException) {
+          // Permission may already be held; ignore.
+        }
+        val treeDoc = androidx.documentfile.provider.DocumentFile.fromTreeUri(context, treeUri)
+          ?: throw Exception("Failed to access selected folder")
+        val dest = treeDoc.createFile(mimeType.ifEmpty { "application/octet-stream" }, sourceFile.name)
+          ?: throw Exception("Failed to create file in selected folder")
+        resolver.openOutputStream(dest.uri)?.use { output ->
+          sourceFile.inputStream().use { input ->
+            input.copyTo(output)
+          }
+        } ?: throw Exception("Failed to open output stream for selected folder")
+        return dest.uri
+      } catch (e: Exception) {
+        // Fall through to default MediaStore behavior if SAF copy fails.
+      }
+    }
+
+    // Default: use MediaStore Downloads collection, optionally honoring a
+    // relative path like "Downloads/MusicTube" if outputDir is a plain name.
+    val relativePath = if (outputDir.isBlank() || outputDir == Environment.DIRECTORY_DOWNLOADS) {
+      Environment.DIRECTORY_DOWNLOADS
+    } else {
+      // Treat outputDir as a subfolder under Downloads.
+      "${Environment.DIRECTORY_DOWNLOADS}/${outputDir.trimStart('/')}"
+    }
     val values = ContentValues().apply {
       put(MediaStore.Downloads.DISPLAY_NAME, sourceFile.name)
       if (mimeType.isNotBlank()) {
         put(MediaStore.Downloads.MIME_TYPE, mimeType)
       }
-      put(MediaStore.Downloads.RELATIVE_PATH, Environment.DIRECTORY_DOWNLOADS)
+      put(MediaStore.Downloads.RELATIVE_PATH, relativePath)
       put(MediaStore.Downloads.IS_PENDING, 1)
     }
 
-    val resolver = context.contentResolver
     val collection = MediaStore.Downloads.EXTERNAL_CONTENT_URI
     val uri = resolver.insert(collection, values) ?: throw Exception("Failed to create download entry")
 

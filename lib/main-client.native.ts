@@ -76,6 +76,16 @@ export const mainClient: MainClient = {
     }
   },
   async selectFolder() {
+    // Use the native module's selectFolder, which launches Android's
+    // ACTION_OPEN_DOCUMENT_TREE intent to pick a real folder (not just a file).
+    // Returns a content:// URI string, or null if the user cancels.
+    try {
+      if (typeof nativeModule.selectFolder === 'function') {
+        return await nativeModule.selectFolder()
+      }
+    } catch {
+      // fall through
+    }
     return null
   },
   async openFolder() {},

@@ -21,6 +21,13 @@ import java.util.zip.ZipInputStream
 
 class NouTubeViewModule : Module() {
   private var lastProxyKey: String? = null
+  // Pending promise for the SAF folder picker (ACTION_OPEN_DOCUMENT_TREE).
+  // Set when selectFolder is called, resolved in onActivityResult.
+  private var folderPickerPromise: Promise? = null
+
+  companion object {
+    private const val REQUEST_FOLDER_PICKER = 7701
+  }
 
   private fun ytDlp(): NouYtDlp {
     val context = appContext.reactContext?.applicationContext ?: throw Exception("Application context is unavailable")
@@ -141,6 +148,36 @@ class NouTubeViewModule : Module() {
       captioningManager = null
     }
 
+    OnActivityResult { activity, payload ->
+      if (payload.requestCode != REQUEST_FOLDER_PICKER) {
+        return@OnActivityResult
+      }
+      val promise = folderPickerPromise
+      folderPickerPromise = null
+      if (promise == null) {
+        return@OnActivityResult
+      }
+      if (payload.resultCode != android.app.Activity.RESULT_OK) {
+        promise.resolve(null)
+        return@OnActivityResult
+      }
+      val treeUri = payload.data?.data
+      if (treeUri == null) {
+        promise.resolve(null)
+        return@OnActivityResult
+      }
+      // Persist the permission so the URI remains usable across app restarts.
+      try {
+        appContext.reactContext?.contentResolver?.takePersistableUriPermission(
+          treeUri,
+          Intent.FLAG_GRANT_READ_URI_PERMISSION or Intent.FLAG_GRANT_WRITE_URI_PERMISSION,
+        )
+      } catch (_: SecurityException) {
+        // Best-effort; the URI may still be usable for the lifetime of the process.
+      }
+      promise.resolve(treeUri.toString())
+    }
+
     Function("getSystemCaptionStyle") {
       readCaptionStyle()
     }
@@ -255,6 +292,31 @@ class NouTubeViewModule : Module() {
 
     AsyncFunction("getDownloadsPath") {
       android.os.Environment.DIRECTORY_DOWNLOADS
+    }
+
+    // Launches the Android Storage Access Framework directory picker
+    // (ACTION_OPEN_DOCUMENT_TREE). Resolves with a content:// URI string
+    // representing the selected folder tree, or null if the user cancels.
+    AsyncFunction("selectFolder") { promise: Promise ->
+      val activity = appContext.currentActivity
+      if (activity == null) {
+        promise.resolve(null)
+        return@AsyncFunction
+      }
+      folderPickerPromise = promise
+      try {
+        val intent = Intent(Intent.ACTION_OPEN_DOCUMENT_TREE).apply {
+          addFlags(
+            Intent.FLAG_GRANT_READ_URI_PERMISSION or
+            Intent.FLAG_GRANT_WRITE_URI_PERMISSION or
+            Intent.FLAG_GRANT_PERSISTABLE_URI_PERMISSION
+          )
+        }
+        activity.startActivityForResult(intent, REQUEST_FOLDER_PICKER)
+      } catch (e: Exception) {
+        folderPickerPromise = null
+        promise.resolve(null)
+      }
     }
 
     AsyncFunction("updateYtDlp") {

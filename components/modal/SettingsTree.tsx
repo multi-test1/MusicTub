@@ -27,7 +27,7 @@ import { SettingsUserStylesContent } from './SettingsUserStylesContent'
 import { SettingsBlocklistContent } from './SettingsBlocklistContent'
 import { useTwColor } from '@/lib/theme'
 
-const repo = 'https://github.com/multi-test1/MusicTub'
+const repo = 'https://github.com/multi-test1/MusicTube'
 const donateLinks: { label: string; detail: string; url: string }[] = []
 export const surfaceCls =
   'overflow-hidden rounded-[24px] bg-white dark:bg-zinc-900'
@@ -400,7 +400,7 @@ export const SettingsTree = forwardRef<
 
             <SettingsSection label={t('about.code')}>
               <View className={surfaceCls}>
-                <SettingsExternalRow title="GitHub" detail="github.com/multi-test1/MusicTub" href={repo} icon="code" isLast />
+                <SettingsExternalRow title="GitHub" detail="github.com/multi-test1/MusicTube" href={repo} icon="code" isLast />
               </View>
             </SettingsSection>
           </View>

@@ -183,7 +183,7 @@ export const ToolsModal = () => {
         </View>
 
         {nIf(
-          !isAndroid && (phase === 'idle' || phase === 'choosing'),
+          phase === 'idle' || phase === 'choosing',
           <View className="gap-1">
             <NouText className="text-sm font-semibold text-zinc-500 dark:text-zinc-400">{t('modals.folder')}</NouText>
             <Pressable
